@@ -429,29 +429,6 @@ Wire Wire Line
 	3950 2300 4150 2300
 Text Label 800  1350 2    50   ~ 0
 +5V_SB
-$Comp
-L lsts-micros:ATMEGA328P-AU U4
-U 1 1 5DFA533E
-P 1850 2600
-F 0 "U4" H 1900 3967 50  0000 C CNN
-F 1 "ATMEGA328P-AU" H 1900 3876 50  0000 C CNN
-F 2 "lsts-ic:TQFP32" H 1850 2600 50  0001 C CIN
-F 3 "" H 1850 2600 50  0001 C CNN
-F 4 "ATMEGA328P-AU" H 1850 2600 50  0001 C CNN "manf#"
-	1    1850 2600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	950  2100 950  1800
-Connection ~ 950  1600
-Wire Wire Line
-	950  1600 950  1500
-Connection ~ 950  1800
-Wire Wire Line
-	950  1800 950  1600
-Wire Wire Line
-	950  1500 950  1350
-Connection ~ 950  1500
 Wire Wire Line
 	950  950  950  800 
 Wire Wire Line
@@ -459,14 +436,6 @@ Wire Wire Line
 Connection ~ 950  1350
 Wire Wire Line
 	950  1350 950  1250
-Wire Wire Line
-	950  3600 950  3700
-Connection ~ 950  3700
-Wire Wire Line
-	950  3700 950  3800
-Connection ~ 950  3800
-Wire Wire Line
-	950  3800 950  3950
 $Comp
 L lsts-conn:MICROUSB CON1
 U 1 1 5E07961B
@@ -1014,7 +983,6 @@ NoConn ~ 2850 2650
 NoConn ~ 2850 2550
 NoConn ~ 2850 2450
 NoConn ~ 2850 2350
-NoConn ~ 2850 1500
 $Comp
 L Connector_Generic:Conn_01x01 J34
 U 1 1 5E28827E
@@ -1089,4 +1057,39 @@ Wire Wire Line
 Connection ~ 6700 7000
 Wire Wire Line
 	6700 7000 6700 7200
+Connection ~ 950  1600
+Wire Wire Line
+	950  3600 950  3700
+Connection ~ 950  3700
+Wire Wire Line
+	950  1500 950  1350
+Wire Wire Line
+	950  1600 950  1500
+Connection ~ 950  1500
+Wire Wire Line
+	950  3800 950  3950
+Wire Wire Line
+	950  3700 950  3800
+Connection ~ 950  3800
+Wire Wire Line
+	950  1800 950  1600
+Wire Wire Line
+	950  2100 950  1800
+Connection ~ 950  1800
+$Comp
+L lsts-micros:ATMEGA328P-AU U4
+U 1 1 5DFA533E
+P 1850 2600
+F 0 "U4" H 1900 3967 50  0000 C CNN
+F 1 "ATMEGA328P-AU" H 1900 3876 50  0000 C CNN
+F 2 "lsts-ic:TQFP32" H 1850 2600 50  0001 C CIN
+F 3 "" H 1850 2600 50  0001 C CNN
+F 4 "ATMEGA328P-AU" H 1850 2600 50  0001 C CNN "manf#"
+	1    1850 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 1500 3000 1500
+Text Label 3000 1500 0    50   ~ 0
+PWR_CTR
 $EndSCHEMATC

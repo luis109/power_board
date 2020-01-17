@@ -2353,22 +2353,6 @@ Wire Wire Line
 	8400 3700 8700 3700
 Wire Wire Line
 	7300 3700 8100 3700
-Connection ~ 8400 3700
-$Comp
-L Device:D D?
-U 1 1 5E423296
-P 8250 3700
-AR Path="/5E423296" Ref="D?"  Part="1" 
-AR Path="/5E1C04CF/5E423296" Ref="D19"  Part="1" 
-AR Path="/5E3E0C4B/5E423296" Ref="D?"  Part="1" 
-F 0 "D19" H 8250 3484 50  0000 C CNN
-F 1 "PDS835L-13" H 8250 3575 50  0000 C CNN
-F 2 "Diode_SMD:D_PowerDI-5" H 8250 3700 50  0001 C CNN
-F 3 "~" H 8250 3700 50  0001 C CNN
-F 4 "PDS835L-13" H 8250 3700 50  0001 C CNN "manf#"
-	1    8250 3700
-	-1   0    0    -1  
-$EndComp
 $Comp
 L Device:D D?
 U 1 1 5E42329D
@@ -2404,5 +2388,21 @@ F 2 "lsts-passives:C_0603" H 8738 5000 50  0001 C CNN
 F 3 "~" H 8700 5150 50  0001 C CNN
 	1    8700 5150
 	1    0    0    -1  
+$EndComp
+Connection ~ 8400 3700
+$Comp
+L Device:D D?
+U 1 1 5E423296
+P 8250 3700
+AR Path="/5E423296" Ref="D?"  Part="1" 
+AR Path="/5E1C04CF/5E423296" Ref="D19"  Part="1" 
+AR Path="/5E3E0C4B/5E423296" Ref="D?"  Part="1" 
+F 0 "D19" H 8250 3484 50  0000 C CNN
+F 1 "PDS835L-13" H 8250 3575 50  0000 C CNN
+F 2 "Diode_SMD:D_PowerDI-5" H 8250 3700 50  0001 C CNN
+F 3 "~" H 8250 3700 50  0001 C CNN
+F 4 "PDS835L-13" H 8250 3700 50  0001 C CNN "manf#"
+	1    8250 3700
+	-1   0    0    -1  
 $EndComp
 $EndSCHEMATC

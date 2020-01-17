@@ -469,8 +469,6 @@ Wire Wire Line
 	3900 2500 4050 2500
 Wire Wire Line
 	3400 2900 3400 3050
-Wire Wire Line
-	2900 2000 2750 2000
 NoConn ~ 3900 2000
 NoConn ~ 3900 2700
 $Comp
@@ -527,8 +525,6 @@ F 3 "" H 4050 2500 50  0001 C CNN
 $EndComp
 Text HLabel 4050 2300 2    50   Input ~ 0
 +5V_SB
-Text HLabel 2750 2000 0    50   Input ~ 0
-PWR_CTR
 $Comp
 L Connector:ATX-24 J8
 U 1 1 5E29B35F
@@ -1255,4 +1251,77 @@ Wire Wire Line
 	8600 4900 8600 5350
 Wire Wire Line
 	8600 5450 8600 5950
+Wire Wire Line
+	2650 2000 2750 2000
+Text HLabel 2350 1900 1    50   Input ~ 0
+PWR_CTR
+$Comp
+L power:GND #PWR?
+U 1 1 5E392A21
+P 2650 2550
+AR Path="/5E392A21" Ref="#PWR?"  Part="1" 
+AR Path="/5E4060AB/5E392A21" Ref="#PWR039"  Part="1" 
+F 0 "#PWR039" H 2650 2300 50  0001 C CNN
+F 1 "GND" H 2655 2377 50  0000 C CNN
+F 2 "" H 2650 2550 50  0001 C CNN
+F 3 "" H 2650 2550 50  0001 C CNN
+	1    2650 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 2400 2650 2550
+$Comp
+L lsts-discrete:NPN_EBC Q?
+U 1 1 5E37C7C2
+P 2550 2200
+AR Path="/5E37C7C2" Ref="Q?"  Part="1" 
+AR Path="/5E1C04CF/5E37C7C2" Ref="Q?"  Part="1" 
+AR Path="/5E3E0C4B/5E37C7C2" Ref="Q?"  Part="1" 
+AR Path="/5E4850C0/5E37C7C2" Ref="Q?"  Part="1" 
+AR Path="/5E4060AB/5E37C7C2" Ref="Q21"  Part="1" 
+F 0 "Q21" H 2741 2246 50  0000 L CNN
+F 1 "MMBT4401-7-F" H 2741 2155 50  0000 L CNN
+F 2 "lsts-discretes:SOT23_BC817" H 2750 2300 50  0001 C CNN
+F 3 "~" H 2550 2200 50  0001 C CNN
+F 4 "MMBT4401-7-F" H 2550 2200 50  0001 C CNN "manf#"
+	1    2550 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E37C7BB
+P 2350 2050
+AR Path="/5E37C7BB" Ref="R?"  Part="1" 
+AR Path="/5E1C04CF/5E37C7BB" Ref="R?"  Part="1" 
+AR Path="/5E3E0C4B/5E37C7BB" Ref="R?"  Part="1" 
+AR Path="/5E4850C0/5E37C7BB" Ref="R?"  Part="1" 
+AR Path="/5E4060AB/5E37C7BB" Ref="R35"  Part="1" 
+F 0 "R35" V 2143 2050 50  0000 C CNN
+F 1 "10kR" V 2234 2050 50  0000 C CNN
+F 2 "lsts-passives:R_0603" V 2280 2050 50  0001 C CNN
+F 3 "~" H 2350 2050 50  0001 C CNN
+	1    2350 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E39FAB3
+P 2750 1850
+AR Path="/5E39FAB3" Ref="R?"  Part="1" 
+AR Path="/5E1C04CF/5E39FAB3" Ref="R?"  Part="1" 
+AR Path="/5E3E0C4B/5E39FAB3" Ref="R?"  Part="1" 
+AR Path="/5E4850C0/5E39FAB3" Ref="R?"  Part="1" 
+AR Path="/5E4060AB/5E39FAB3" Ref="R36"  Part="1" 
+F 0 "R36" V 2543 1850 50  0000 C CNN
+F 1 "10kR" V 2634 1850 50  0000 C CNN
+F 2 "lsts-passives:R_0603" V 2680 1850 50  0001 C CNN
+F 3 "~" H 2750 1850 50  0001 C CNN
+	1    2750 1850
+	1    0    0    -1  
+$EndComp
+Connection ~ 2750 2000
+Wire Wire Line
+	2750 2000 2900 2000
+Text HLabel 2750 1700 1    50   Input ~ 0
++5V_SB
 $EndSCHEMATC
