@@ -599,15 +599,15 @@ Wire Wire Line
 Wire Wire Line
 	2250 6700 2400 6700
 Wire Wire Line
-	4750 5200 4900 5200
+	4750 6200 4900 6200
 Wire Wire Line
-	4750 5300 4900 5300
+	4750 6300 4900 6300
 Wire Wire Line
-	4750 5400 4900 5400
+	4750 6400 4900 6400
 Wire Wire Line
-	4750 5500 4900 5500
+	4750 6500 4900 6500
 Wire Wire Line
-	4750 5600 4900 5600
+	4750 6600 4900 6600
 Text Label 2400 5200 0    50   ~ 0
 MTR1_EN
 Text Label 2400 5300 0    50   ~ 0
@@ -672,15 +672,15 @@ Text Label 2400 6600 0    50   ~ 0
 MTR5_FW
 Text Label 2400 6700 0    50   ~ 0
 MTR5_BW
-Text Label 4900 5200 0    50   ~ 0
+Text Label 4900 6200 0    50   ~ 0
 RLY1_EN
-Text Label 4900 5300 0    50   ~ 0
+Text Label 4900 6300 0    50   ~ 0
 RLY2_EN
-Text Label 4900 5400 0    50   ~ 0
+Text Label 4900 6400 0    50   ~ 0
 RLY3_EN
-Text Label 4900 5500 0    50   ~ 0
+Text Label 4900 6500 0    50   ~ 0
 RLY4_EN
-Text Label 4900 5600 0    50   ~ 0
+Text Label 4900 6600 0    50   ~ 0
 RLY5_EN
 $Comp
 L Device:R R21
@@ -736,17 +736,6 @@ Wire Wire Line
 NoConn ~ 3750 5500
 NoConn ~ 1250 5500
 NoConn ~ 2250 6800
-NoConn ~ 4750 5700
-NoConn ~ 4750 5800
-NoConn ~ 4750 5900
-NoConn ~ 4750 6100
-NoConn ~ 4750 6200
-NoConn ~ 4750 6300
-NoConn ~ 4750 6500
-NoConn ~ 4750 6400
-NoConn ~ 4750 6600
-NoConn ~ 4750 6700
-NoConn ~ 4750 6800
 NoConn ~ 950  2950
 NoConn ~ 950  2850
 Wire Wire Line
@@ -841,18 +830,6 @@ Connection ~ 1250 6700
 Connection ~ 1250 6800
 Wire Wire Line
 	1250 6800 1250 7050
-$Comp
-L Interface_Expansion:PCA9555PW U9
-U 1 1 5E2959DE
-P 4250 6000
-F 0 "U9" H 4250 7181 50  0000 C CNN
-F 1 "PCA9555PW" H 4250 7090 50  0000 C CNN
-F 2 "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm" H 4250 6000 50  0001 C CNN
-F 3 "https://www.nxp.com/docs/en/data-sheet/PCA9555.pdf" H 4250 6000 50  0001 C CNN
-F 4 "PCA9555PW,118" H 4250 6000 50  0001 C CNN "manf#"
-	1    4250 6000
-	1    0    0    -1  
-$EndComp
 $Sheet
 S 9950 4600 550  600 
 U 5E4850C0
@@ -972,11 +949,6 @@ Text Label 3000 1600 0    50   ~ 0
 PWM4_5V
 Text Label 3000 1700 0    50   ~ 0
 PWM5_5V
-Wire Wire Line
-	3750 6700 3750 6800
-Connection ~ 3750 6800
-Wire Wire Line
-	3750 6800 3750 7050
 NoConn ~ 2850 3300
 NoConn ~ 2850 3500
 NoConn ~ 2850 2650
@@ -1131,4 +1103,59 @@ F 3 "" H 3700 3950 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3700 3800 3700 3950
+Wire Wire Line
+	3750 6800 3750 7050
+Wire Wire Line
+	3750 6700 3750 6800
+Connection ~ 3750 6800
+$Comp
+L Interface_Expansion:PCA9555PW U9
+U 1 1 5E2959DE
+P 4250 6000
+F 0 "U9" H 4250 7181 50  0000 C CNN
+F 1 "PCA9555PW" H 4250 7090 50  0000 C CNN
+F 2 "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm" H 4250 6000 50  0001 C CNN
+F 3 "https://www.nxp.com/docs/en/data-sheet/PCA9555.pdf" H 4250 6000 50  0001 C CNN
+F 4 "PCA9555PW,118" H 4250 6000 50  0001 C CNN "manf#"
+	1    4250 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 5200 4900 5200
+Wire Wire Line
+	4750 5300 4900 5300
+Wire Wire Line
+	4750 5400 4900 5400
+Text Label 4900 5200 0    50   ~ 0
+MTR6_EN
+Text Label 4900 5300 0    50   ~ 0
+MTR6_FW
+Text Label 4900 5400 0    50   ~ 0
+MTR6_BW
+Wire Wire Line
+	4750 5500 4900 5500
+Wire Wire Line
+	4750 5600 4900 5600
+Wire Wire Line
+	4750 5700 4900 5700
+Text Label 4900 5500 0    50   ~ 0
+MTR7_EN
+Text Label 4900 5600 0    50   ~ 0
+MTR7_FW
+Text Label 4900 5700 0    50   ~ 0
+MTR7_BW
+Wire Wire Line
+	4750 5800 4900 5800
+Wire Wire Line
+	4750 5900 4900 5900
+Wire Wire Line
+	4750 6100 4900 6100
+Text Label 4900 5800 0    50   ~ 0
+MTR8_EN
+Text Label 4900 5900 0    50   ~ 0
+MTR8_FW
+Text Label 4900 6100 0    50   ~ 0
+MTR8_BW
+NoConn ~ 4750 6700
+NoConn ~ 4750 6800
 $EndSCHEMATC
