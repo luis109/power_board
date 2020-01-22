@@ -898,305 +898,6 @@ Text HLabel 1000 3150 0    50   Input ~ 0
 MTR2_BW
 $Comp
 L lsts-devices:L6203 U?
-U 1 1 5E4D6D35
-P 1850 1300
-AR Path="/5E4D6D35" Ref="U?"  Part="1" 
-AR Path="/5E1C04CF/5E4D6D35" Ref="U1"  Part="1" 
-AR Path="/5E3E0C4B/5E4D6D35" Ref="U?"  Part="1" 
-F 0 "U1" H 1850 1765 50  0000 C CNN
-F 1 "L6203" H 1850 1674 50  0000 C CNN
-F 2 "lsts-discretes:MULTIWATT-11" H 1850 1750 50  0001 C CNN
-F 3 "" H 1850 1300 50  0001 C CNN
-F 4 "L6203" H 1850 1300 50  0001 C CNN "manf#"
-	1    1850 1300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1150 1200 1000 1200
-Wire Wire Line
-	1150 1300 1000 1300
-Wire Wire Line
-	1150 1400 1000 1400
-Wire Wire Line
-	1150 1100 1150 950 
-Wire Wire Line
-	850  950  700  950 
-$Comp
-L power:GND #PWR?
-U 1 1 5E4D6D40
-P 700 950
-AR Path="/5E4D6D40" Ref="#PWR?"  Part="1" 
-AR Path="/5E1C04CF/5E4D6D40" Ref="#PWR0130"  Part="1" 
-AR Path="/5E3E0C4B/5E4D6D40" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0130" H 700 700 50  0001 C CNN
-F 1 "GND" H 705 777 50  0000 C CNN
-F 2 "" H 700 950 50  0001 C CNN
-F 3 "" H 700 950 50  0001 C CNN
-	1    700  950 
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5E4D6D46
-P 1000 950
-AR Path="/5E4D6D46" Ref="C?"  Part="1" 
-AR Path="/5E1C04CF/5E4D6D46" Ref="C6"  Part="1" 
-AR Path="/5E3E0C4B/5E4D6D46" Ref="C?"  Part="1" 
-F 0 "C6" V 748 950 50  0000 C CNN
-F 1 "220nF" V 839 950 50  0000 C CNN
-F 2 "lsts-passives:C_0603" H 1038 800 50  0001 C CNN
-F 3 "~" H 1000 950 50  0001 C CNN
-	1    1000 950 
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1150 1500 1000 1500
-$Comp
-L power:GND #PWR?
-U 1 1 5E4D6D4D
-P 1000 1500
-AR Path="/5E4D6D4D" Ref="#PWR?"  Part="1" 
-AR Path="/5E1C04CF/5E4D6D4D" Ref="#PWR0131"  Part="1" 
-AR Path="/5E3E0C4B/5E4D6D4D" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0131" H 1000 1250 50  0001 C CNN
-F 1 "GND" H 1005 1327 50  0000 C CNN
-F 2 "" H 1000 1500 50  0001 C CNN
-F 3 "" H 1000 1500 50  0001 C CNN
-	1    1000 1500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3650 1400 3650 1950
-Wire Wire Line
-	3650 1300 3650 750 
-$Comp
-L Device:R R?
-U 1 1 5E4D6D55
-P 3950 1050
-AR Path="/5E4D6D55" Ref="R?"  Part="1" 
-AR Path="/5E1C04CF/5E4D6D55" Ref="R1"  Part="1" 
-AR Path="/5E3E0C4B/5E4D6D55" Ref="R?"  Part="1" 
-F 0 "R1" H 4020 1096 50  0000 L CNN
-F 1 "10R" H 4020 1005 50  0000 L CNN
-F 2 "lsts-passives:R_0603" V 3880 1050 50  0001 C CNN
-F 3 "~" H 3950 1050 50  0001 C CNN
-	1    3950 1050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5E4D6D5B
-P 3950 1650
-AR Path="/5E4D6D5B" Ref="C?"  Part="1" 
-AR Path="/5E1C04CF/5E4D6D5B" Ref="C22"  Part="1" 
-AR Path="/5E3E0C4B/5E4D6D5B" Ref="C?"  Part="1" 
-F 0 "C22" H 4065 1696 50  0000 L CNN
-F 1 "22nF" H 4065 1605 50  0000 L CNN
-F 2 "lsts-passives:C_0603" H 3988 1500 50  0001 C CNN
-F 3 "~" H 3950 1650 50  0001 C CNN
-	1    3950 1650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3950 1500 3950 1200
-$Comp
-L Device:C C?
-U 1 1 5E4D6D62
-P 3000 1150
-AR Path="/5E4D6D62" Ref="C?"  Part="1" 
-AR Path="/5E1C04CF/5E4D6D62" Ref="C11"  Part="1" 
-AR Path="/5E3E0C4B/5E4D6D62" Ref="C?"  Part="1" 
-F 0 "C11" V 2748 1150 50  0000 C CNN
-F 1 "15nF" V 2839 1150 50  0000 C CNN
-F 2 "lsts-passives:C_0603" H 3038 1000 50  0001 C CNN
-F 3 "~" H 3000 1150 50  0001 C CNN
-	1    3000 1150
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3150 1150 3150 1300
-$Comp
-L Device:C C?
-U 1 1 5E4D6D69
-P 3000 1550
-AR Path="/5E4D6D69" Ref="C?"  Part="1" 
-AR Path="/5E1C04CF/5E4D6D69" Ref="C12"  Part="1" 
-AR Path="/5E3E0C4B/5E4D6D69" Ref="C?"  Part="1" 
-F 0 "C12" V 2748 1550 50  0000 C CNN
-F 1 "15nF" V 2839 1550 50  0000 C CNN
-F 2 "lsts-passives:C_0603" H 3038 1400 50  0001 C CNN
-F 3 "~" H 3000 1550 50  0001 C CNN
-	1    3000 1550
-	0    1    -1   0   
-$EndComp
-Wire Wire Line
-	3150 1550 3150 1400
-$Comp
-L Device:C C?
-U 1 1 5E4D6D70
-P 3000 750
-AR Path="/5E4D6D70" Ref="C?"  Part="1" 
-AR Path="/5E1C04CF/5E4D6D70" Ref="C10"  Part="1" 
-AR Path="/5E3E0C4B/5E4D6D70" Ref="C?"  Part="1" 
-F 0 "C10" V 2748 750 50  0000 C CNN
-F 1 "100nF" V 2839 750 50  0000 C CNN
-F 2 "lsts-passives:C_0603" H 3038 600 50  0001 C CNN
-F 3 "~" H 3000 750 50  0001 C CNN
-	1    3000 750 
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2550 1100 2550 750 
-Wire Wire Line
-	3150 750  3250 750 
-Wire Wire Line
-	3650 750  3950 750 
-Wire Wire Line
-	3950 900  3950 750 
-Connection ~ 3950 750 
-Wire Wire Line
-	3950 750  4250 750 
-Wire Wire Line
-	2550 1600 2550 1950
-Wire Wire Line
-	3950 1800 3950 1950
-Connection ~ 3950 1950
-Wire Wire Line
-	3950 1950 4250 1950
-$Comp
-L power:GND #PWR?
-U 1 1 5E4D6D80
-P 3250 750
-AR Path="/5E4D6D80" Ref="#PWR?"  Part="1" 
-AR Path="/5E1C04CF/5E4D6D80" Ref="#PWR0132"  Part="1" 
-AR Path="/5E3E0C4B/5E4D6D80" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0132" H 3250 500 50  0001 C CNN
-F 1 "GND" H 3255 577 50  0000 C CNN
-F 2 "" H 3250 750 50  0001 C CNN
-F 3 "" H 3250 750 50  0001 C CNN
-	1    3250 750 
-	1    0    0    -1  
-$EndComp
-Connection ~ 3250 750 
-Wire Wire Line
-	3250 750  3350 750 
-$Comp
-L power:GND #PWR?
-U 1 1 5E4D6D88
-P 2400 1950
-AR Path="/5E4D6D88" Ref="#PWR?"  Part="1" 
-AR Path="/5E1C04CF/5E4D6D88" Ref="#PWR0133"  Part="1" 
-AR Path="/5E3E0C4B/5E4D6D88" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0133" H 2400 1700 50  0001 C CNN
-F 1 "GND" H 2405 1777 50  0000 C CNN
-F 2 "" H 2400 1950 50  0001 C CNN
-F 3 "" H 2400 1950 50  0001 C CNN
-	1    2400 1950
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2400 1950 2550 1950
-Wire Wire Line
-	2550 750  2400 750 
-Connection ~ 2550 750 
-$Comp
-L power:+12V #PWR?
-U 1 1 5E4D6D91
-P 2400 750
-AR Path="/5E4D6D91" Ref="#PWR?"  Part="1" 
-AR Path="/5E1C04CF/5E4D6D91" Ref="#PWR0134"  Part="1" 
-AR Path="/5E3E0C4B/5E4D6D91" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0134" H 2400 600 50  0001 C CNN
-F 1 "+12V" V 2415 878 50  0000 L CNN
-F 2 "" H 2400 750 50  0001 C CNN
-F 3 "" H 2400 750 50  0001 C CNN
-	1    2400 750 
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J?
-U 1 1 5E4D6D98
-P 4450 1300
-AR Path="/5E4D6D98" Ref="J?"  Part="1" 
-AR Path="/5E1C04CF/5E4D6D98" Ref="J1"  Part="1" 
-AR Path="/5E3E0C4B/5E4D6D98" Ref="J?"  Part="1" 
-F 0 "J1" H 4530 1292 50  0000 L CNN
-F 1 "Conn_01x02" H 4530 1201 50  0000 L CNN
-F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical" H 4450 1300 50  0001 C CNN
-F 3 "~" H 4450 1300 50  0001 C CNN
-F 4 "43045-0212" H 4450 1300 50  0001 C CNN "manf#"
-	1    4450 1300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4250 1300 4250 750 
-Wire Wire Line
-	4250 1400 4250 1950
-Wire Wire Line
-	3150 1400 3650 1400
-Wire Wire Line
-	3650 1300 3150 1300
-Wire Wire Line
-	2550 1200 2850 1200
-Wire Wire Line
-	2850 1200 2850 1150
-Wire Wire Line
-	2550 1300 3150 1300
-Connection ~ 3150 1300
-Wire Wire Line
-	3150 1400 2550 1400
-Connection ~ 3150 1400
-Wire Wire Line
-	2550 1500 2850 1500
-Wire Wire Line
-	2850 1500 2850 1550
-Connection ~ 2550 1950
-Wire Wire Line
-	2550 750  2850 750 
-Wire Wire Line
-	3650 1950 3950 1950
-Wire Wire Line
-	2550 1950 3350 1950
-Connection ~ 3650 1950
-$Comp
-L Device:D D?
-U 1 1 5E4D6DAF
-P 3500 1950
-AR Path="/5E4D6DAF" Ref="D?"  Part="1" 
-AR Path="/5E1C04CF/5E4D6DAF" Ref="D2"  Part="1" 
-AR Path="/5E3E0C4B/5E4D6DAF" Ref="D?"  Part="1" 
-F 0 "D2" H 3500 1734 50  0000 C CNN
-F 1 "PDS835L-13" H 3500 1825 50  0000 C CNN
-F 2 "Diode_SMD:D_PowerDI-5" H 3500 1950 50  0001 C CNN
-F 3 "~" H 3500 1950 50  0001 C CNN
-F 4 "PDS835L-13" H 3500 1950 50  0001 C CNN "manf#"
-	1    3500 1950
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:D D?
-U 1 1 5E4D6DB5
-P 3500 750
-AR Path="/5E4D6DB5" Ref="D?"  Part="1" 
-AR Path="/5E1C04CF/5E4D6DB5" Ref="D1"  Part="1" 
-AR Path="/5E3E0C4B/5E4D6DB5" Ref="D?"  Part="1" 
-F 0 "D1" H 3500 966 50  0000 C CNN
-F 1 "PDS835L-13" H 3500 875 50  0000 C CNN
-F 2 "Diode_SMD:D_PowerDI-5" H 3500 750 50  0001 C CNN
-F 3 "~" H 3500 750 50  0001 C CNN
-F 4 "PDS835L-13" H 3500 750 50  0001 C CNN "manf#"
-	1    3500 750 
-	-1   0    0    -1  
-$EndComp
-Connection ~ 3650 750 
-Text HLabel 1000 1200 0    50   Input ~ 0
-MTR1_EN
-Text HLabel 1000 1300 0    50   Input ~ 0
-MTR1_FW
-Text HLabel 1000 1400 0    50   Input ~ 0
-MTR1_BW
-$Comp
-L lsts-devices:L6203 U?
 U 1 1 5E50C400
 P 6600 1300
 AR Path="/5E50C400" Ref="U?"  Part="1" 
@@ -2404,5 +2105,304 @@ F 3 "~" H 8250 3700 50  0001 C CNN
 F 4 "PDS835L-13" H 8250 3700 50  0001 C CNN "manf#"
 	1    8250 3700
 	-1   0    0    -1  
+$EndComp
+Text HLabel 1000 1400 0    50   Input ~ 0
+MTR1_BW
+Text HLabel 1000 1300 0    50   Input ~ 0
+MTR1_FW
+Text HLabel 1000 1200 0    50   Input ~ 0
+MTR1_EN
+$Comp
+L Device:D D?
+U 1 1 5E4D6DB5
+P 3500 750
+AR Path="/5E4D6DB5" Ref="D?"  Part="1" 
+AR Path="/5E1C04CF/5E4D6DB5" Ref="D1"  Part="1" 
+AR Path="/5E3E0C4B/5E4D6DB5" Ref="D?"  Part="1" 
+F 0 "D1" H 3500 966 50  0000 C CNN
+F 1 "PDS835L-13" H 3500 875 50  0000 C CNN
+F 2 "Diode_SMD:D_PowerDI-5" H 3500 750 50  0001 C CNN
+F 3 "~" H 3500 750 50  0001 C CNN
+F 4 "PDS835L-13" H 3500 750 50  0001 C CNN "manf#"
+	1    3500 750 
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 5E4D6DAF
+P 3500 1950
+AR Path="/5E4D6DAF" Ref="D?"  Part="1" 
+AR Path="/5E1C04CF/5E4D6DAF" Ref="D2"  Part="1" 
+AR Path="/5E3E0C4B/5E4D6DAF" Ref="D?"  Part="1" 
+F 0 "D2" H 3500 1734 50  0000 C CNN
+F 1 "PDS835L-13" H 3500 1825 50  0000 C CNN
+F 2 "Diode_SMD:D_PowerDI-5" H 3500 1950 50  0001 C CNN
+F 3 "~" H 3500 1950 50  0001 C CNN
+F 4 "PDS835L-13" H 3500 1950 50  0001 C CNN "manf#"
+	1    3500 1950
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 1500 2850 1550
+Wire Wire Line
+	2550 1500 2850 1500
+Wire Wire Line
+	2850 1200 2850 1150
+Wire Wire Line
+	2550 1200 2850 1200
+Wire Wire Line
+	4250 1400 4250 1950
+Wire Wire Line
+	4250 1300 4250 750 
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5E4D6D98
+P 4450 1300
+AR Path="/5E4D6D98" Ref="J?"  Part="1" 
+AR Path="/5E1C04CF/5E4D6D98" Ref="J1"  Part="1" 
+AR Path="/5E3E0C4B/5E4D6D98" Ref="J?"  Part="1" 
+F 0 "J1" H 4530 1292 50  0000 L CNN
+F 1 "Conn_01x02" H 4530 1201 50  0000 L CNN
+F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical" H 4450 1300 50  0001 C CNN
+F 3 "~" H 4450 1300 50  0001 C CNN
+F 4 "43045-0212" H 4450 1300 50  0001 C CNN "manf#"
+	1    4450 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 5E4D6D91
+P 2400 750
+AR Path="/5E4D6D91" Ref="#PWR?"  Part="1" 
+AR Path="/5E1C04CF/5E4D6D91" Ref="#PWR0134"  Part="1" 
+AR Path="/5E3E0C4B/5E4D6D91" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0134" H 2400 600 50  0001 C CNN
+F 1 "+12V" V 2415 878 50  0000 L CNN
+F 2 "" H 2400 750 50  0001 C CNN
+F 3 "" H 2400 750 50  0001 C CNN
+	1    2400 750 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E4D6D88
+P 2400 1950
+AR Path="/5E4D6D88" Ref="#PWR?"  Part="1" 
+AR Path="/5E1C04CF/5E4D6D88" Ref="#PWR0133"  Part="1" 
+AR Path="/5E3E0C4B/5E4D6D88" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0133" H 2400 1700 50  0001 C CNN
+F 1 "GND" H 2405 1777 50  0000 C CNN
+F 2 "" H 2400 1950 50  0001 C CNN
+F 3 "" H 2400 1950 50  0001 C CNN
+	1    2400 1950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3250 750  3350 750 
+$Comp
+L power:GND #PWR?
+U 1 1 5E4D6D80
+P 3250 750
+AR Path="/5E4D6D80" Ref="#PWR?"  Part="1" 
+AR Path="/5E1C04CF/5E4D6D80" Ref="#PWR0132"  Part="1" 
+AR Path="/5E3E0C4B/5E4D6D80" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0132" H 3250 500 50  0001 C CNN
+F 1 "GND" H 3255 577 50  0000 C CNN
+F 2 "" H 3250 750 50  0001 C CNN
+F 3 "" H 3250 750 50  0001 C CNN
+	1    3250 750 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 1950 3950 1950
+Wire Wire Line
+	3950 1950 4250 1950
+Connection ~ 3950 1950
+Wire Wire Line
+	3950 1800 3950 1950
+Wire Wire Line
+	2550 1950 3350 1950
+Wire Wire Line
+	2400 1950 2550 1950
+Connection ~ 2550 1950
+Wire Wire Line
+	2550 1600 2550 1950
+Wire Wire Line
+	3950 750  4250 750 
+Wire Wire Line
+	3950 900  3950 750 
+Connection ~ 3950 750 
+Wire Wire Line
+	3650 750  3950 750 
+Connection ~ 3250 750 
+Wire Wire Line
+	3150 750  3250 750 
+Wire Wire Line
+	2550 750  2850 750 
+Wire Wire Line
+	2550 750  2400 750 
+Connection ~ 2550 750 
+Wire Wire Line
+	2550 1100 2550 750 
+$Comp
+L Device:C C?
+U 1 1 5E4D6D70
+P 3000 750
+AR Path="/5E4D6D70" Ref="C?"  Part="1" 
+AR Path="/5E1C04CF/5E4D6D70" Ref="C10"  Part="1" 
+AR Path="/5E3E0C4B/5E4D6D70" Ref="C?"  Part="1" 
+F 0 "C10" V 2748 750 50  0000 C CNN
+F 1 "100nF" V 2839 750 50  0000 C CNN
+F 2 "lsts-passives:C_0603" H 3038 600 50  0001 C CNN
+F 3 "~" H 3000 750 50  0001 C CNN
+	1    3000 750 
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3150 1400 2550 1400
+Wire Wire Line
+	3150 1400 3650 1400
+Connection ~ 3150 1400
+Wire Wire Line
+	3150 1550 3150 1400
+$Comp
+L Device:C C?
+U 1 1 5E4D6D69
+P 3000 1550
+AR Path="/5E4D6D69" Ref="C?"  Part="1" 
+AR Path="/5E1C04CF/5E4D6D69" Ref="C12"  Part="1" 
+AR Path="/5E3E0C4B/5E4D6D69" Ref="C?"  Part="1" 
+F 0 "C12" V 2748 1550 50  0000 C CNN
+F 1 "15nF" V 2839 1550 50  0000 C CNN
+F 2 "lsts-passives:C_0603" H 3038 1400 50  0001 C CNN
+F 3 "~" H 3000 1550 50  0001 C CNN
+	1    3000 1550
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	2550 1300 3150 1300
+Wire Wire Line
+	3650 1300 3150 1300
+Connection ~ 3150 1300
+Wire Wire Line
+	3150 1150 3150 1300
+$Comp
+L Device:C C?
+U 1 1 5E4D6D62
+P 3000 1150
+AR Path="/5E4D6D62" Ref="C?"  Part="1" 
+AR Path="/5E1C04CF/5E4D6D62" Ref="C11"  Part="1" 
+AR Path="/5E3E0C4B/5E4D6D62" Ref="C?"  Part="1" 
+F 0 "C11" V 2748 1150 50  0000 C CNN
+F 1 "15nF" V 2839 1150 50  0000 C CNN
+F 2 "lsts-passives:C_0603" H 3038 1000 50  0001 C CNN
+F 3 "~" H 3000 1150 50  0001 C CNN
+	1    3000 1150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3950 1500 3950 1200
+$Comp
+L Device:C C?
+U 1 1 5E4D6D5B
+P 3950 1650
+AR Path="/5E4D6D5B" Ref="C?"  Part="1" 
+AR Path="/5E1C04CF/5E4D6D5B" Ref="C22"  Part="1" 
+AR Path="/5E3E0C4B/5E4D6D5B" Ref="C?"  Part="1" 
+F 0 "C22" H 4065 1696 50  0000 L CNN
+F 1 "22nF" H 4065 1605 50  0000 L CNN
+F 2 "lsts-passives:C_0603" H 3988 1500 50  0001 C CNN
+F 3 "~" H 3950 1650 50  0001 C CNN
+	1    3950 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E4D6D55
+P 3950 1050
+AR Path="/5E4D6D55" Ref="R?"  Part="1" 
+AR Path="/5E1C04CF/5E4D6D55" Ref="R1"  Part="1" 
+AR Path="/5E3E0C4B/5E4D6D55" Ref="R?"  Part="1" 
+F 0 "R1" H 4020 1096 50  0000 L CNN
+F 1 "10R" H 4020 1005 50  0000 L CNN
+F 2 "lsts-passives:R_0603" V 3880 1050 50  0001 C CNN
+F 3 "~" H 3950 1050 50  0001 C CNN
+	1    3950 1050
+	1    0    0    -1  
+$EndComp
+Connection ~ 3650 750 
+Wire Wire Line
+	3650 1300 3650 750 
+Connection ~ 3650 1950
+Wire Wire Line
+	3650 1400 3650 1950
+$Comp
+L power:GND #PWR?
+U 1 1 5E4D6D4D
+P 1000 1500
+AR Path="/5E4D6D4D" Ref="#PWR?"  Part="1" 
+AR Path="/5E1C04CF/5E4D6D4D" Ref="#PWR0131"  Part="1" 
+AR Path="/5E3E0C4B/5E4D6D4D" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0131" H 1000 1250 50  0001 C CNN
+F 1 "GND" H 1005 1327 50  0000 C CNN
+F 2 "" H 1000 1500 50  0001 C CNN
+F 3 "" H 1000 1500 50  0001 C CNN
+	1    1000 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 1500 1000 1500
+$Comp
+L Device:C C?
+U 1 1 5E4D6D46
+P 1000 950
+AR Path="/5E4D6D46" Ref="C?"  Part="1" 
+AR Path="/5E1C04CF/5E4D6D46" Ref="C6"  Part="1" 
+AR Path="/5E3E0C4B/5E4D6D46" Ref="C?"  Part="1" 
+F 0 "C6" V 748 950 50  0000 C CNN
+F 1 "220nF" V 839 950 50  0000 C CNN
+F 2 "lsts-passives:C_0603" H 1038 800 50  0001 C CNN
+F 3 "~" H 1000 950 50  0001 C CNN
+	1    1000 950 
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E4D6D40
+P 700 950
+AR Path="/5E4D6D40" Ref="#PWR?"  Part="1" 
+AR Path="/5E1C04CF/5E4D6D40" Ref="#PWR0130"  Part="1" 
+AR Path="/5E3E0C4B/5E4D6D40" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0130" H 700 700 50  0001 C CNN
+F 1 "GND" H 705 777 50  0000 C CNN
+F 2 "" H 700 950 50  0001 C CNN
+F 3 "" H 700 950 50  0001 C CNN
+	1    700  950 
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	850  950  700  950 
+Wire Wire Line
+	1150 1100 1150 950 
+Wire Wire Line
+	1150 1400 1000 1400
+Wire Wire Line
+	1150 1300 1000 1300
+Wire Wire Line
+	1150 1200 1000 1200
+$Comp
+L lsts-devices:L6203 U?
+U 1 1 5E4D6D35
+P 1850 1300
+AR Path="/5E4D6D35" Ref="U?"  Part="1" 
+AR Path="/5E1C04CF/5E4D6D35" Ref="U1"  Part="1" 
+AR Path="/5E3E0C4B/5E4D6D35" Ref="U?"  Part="1" 
+F 0 "U1" H 1850 1765 50  0000 C CNN
+F 1 "L6203" H 1850 1674 50  0000 C CNN
+F 2 "lsts-discretes:MULTIWATT-11" H 1850 1750 50  0001 C CNN
+F 3 "" H 1850 1300 50  0001 C CNN
+F 4 "L6203" H 1850 1300 50  0001 C CNN "manf#"
+	1    1850 1300
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
