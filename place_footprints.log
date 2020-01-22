@@ -1,0 +1,7 @@
+01-22 12:32:28 place_footprints.action_place_footprints 408:Place footprints plugin version: 37 started
+01-22 12:32:29 place_footprints.place_footprints 187:getting project hierarchy from schematics
+01-22 12:32:29 place_footprints.place_footprints 196:getting a list of all footprints on board
+01-22 12:32:29 place_footprints.action_place_footprints 454:Reference designator is: U
+01-22 12:32:29 place_footprints.action_place_footprints 455:Rerefence number is: 12
+01-22 12:32:29 place_footprints.action_place_footprints 486:Sorted and filtered list:
+['U1', 'U2', 'U3', 'U4', 'U5', 'U6', 'U7', 'U8', 'U9', 'U10', 'U11', 'U12']

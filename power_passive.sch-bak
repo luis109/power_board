@@ -267,54 +267,6 @@ F 3 "" H 8000 1350 50  0001 C CNN
 	1    8000 1350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8150 2000 8000 2000
-Wire Wire Line
-	8000 2000 8000 1900
-Wire Wire Line
-	8150 2100 8000 2100
-Wire Wire Line
-	8000 2100 8000 2200
-$Comp
-L power:GND #PWR?
-U 1 1 5E41B364
-P 8000 2200
-AR Path="/5E41B364" Ref="#PWR?"  Part="1" 
-AR Path="/5E4060AB/5E41B364" Ref="#PWR0160"  Part="1" 
-F 0 "#PWR0160" H 8000 1950 50  0001 C CNN
-F 1 "GND" H 8005 2027 50  0000 C CNN
-F 2 "" H 8000 2200 50  0001 C CNN
-F 3 "" H 8000 2200 50  0001 C CNN
-	1    8000 2200
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3V3 #PWR?
-U 1 1 5E41B374
-P 8000 1900
-AR Path="/5E41B374" Ref="#PWR?"  Part="1" 
-AR Path="/5E4060AB/5E41B374" Ref="#PWR0162"  Part="1" 
-F 0 "#PWR0162" H 8000 1750 50  0001 C CNN
-F 1 "+3V3" H 8015 2073 50  0000 C CNN
-F 2 "" H 8000 1900 50  0001 C CNN
-F 3 "" H 8000 1900 50  0001 C CNN
-	1    8000 1900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J?
-U 1 1 5E41B388
-P 8350 2000
-AR Path="/5E41B388" Ref="J?"  Part="1" 
-AR Path="/5E4060AB/5E41B388" Ref="J19"  Part="1" 
-F 0 "J19" H 8430 1992 50  0000 L CNN
-F 1 "Conn_01x02" H 8430 1901 50  0000 L CNN
-F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical" H 8350 2000 50  0001 C CNN
-F 3 "~" H 8350 2000 50  0001 C CNN
-F 4 "43045-0212" H 8350 2000 50  0001 C CNN "manf#"
-	1    8350 2000
-	1    0    0    -1  
-$EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J?
 U 1 1 5E41B396
