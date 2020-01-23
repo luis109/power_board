@@ -1,4 +1,4 @@
-update=Thu 16 Jan 2020 06:40:20 PM WET
+update=Thu 23 Jan 2020 05:48:09 PM WET
 version=1
 last_client=kicad
 [general]
@@ -249,6 +249,17 @@ Enabled=0
 [pcbnew/Netclasses/Default]
 Name=Default
 Clearance=0.2
+TrackWidth=0.3
+ViaDiameter=1.2
+ViaDrill=0.6
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.3
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/1]
+Name=xclearance
+Clearance=0.3
 TrackWidth=0.3
 ViaDiameter=1.2
 ViaDrill=0.6

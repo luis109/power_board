@@ -235,9 +235,9 @@ L Connector_Generic:Conn_01x02 J?
 U 1 1 5E1FFE0F
 P 4450 6550
 AR Path="/5E1FFE0F" Ref="J?"  Part="1" 
-AR Path="/5E1C04CF/5E1FFE0F" Ref="J30"  Part="1" 
+AR Path="/5E1C04CF/5E1FFE0F" Ref="J29"  Part="1" 
 AR Path="/5E3E0C4B/5E1FFE0F" Ref="J?"  Part="1" 
-F 0 "J30" H 4530 6542 50  0000 L CNN
+F 0 "J29" H 4530 6542 50  0000 L CNN
 F 1 "Conn_01x02" H 4530 6451 50  0000 L CNN
 F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical" H 4450 6550 50  0001 C CNN
 F 3 "~" H 4450 6550 50  0001 C CNN
@@ -520,9 +520,9 @@ L Connector_Generic:Conn_01x02 J?
 U 1 1 5E4C5662
 P 4450 4800
 AR Path="/5E4C5662" Ref="J?"  Part="1" 
-AR Path="/5E1C04CF/5E4C5662" Ref="J29"  Part="1" 
+AR Path="/5E1C04CF/5E4C5662" Ref="J28"  Part="1" 
 AR Path="/5E3E0C4B/5E4C5662" Ref="J?"  Part="1" 
-F 0 "J29" H 4530 4792 50  0000 L CNN
+F 0 "J28" H 4530 4792 50  0000 L CNN
 F 1 "Conn_01x02" H 4530 4701 50  0000 L CNN
 F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical" H 4450 4800 50  0001 C CNN
 F 3 "~" H 4450 4800 50  0001 C CNN
@@ -819,9 +819,9 @@ L Connector_Generic:Conn_01x02 J?
 U 1 1 5E4D6D0D
 P 4450 3050
 AR Path="/5E4D6D0D" Ref="J?"  Part="1" 
-AR Path="/5E1C04CF/5E4D6D0D" Ref="J28"  Part="1" 
+AR Path="/5E1C04CF/5E4D6D0D" Ref="J27"  Part="1" 
 AR Path="/5E3E0C4B/5E4D6D0D" Ref="J?"  Part="1" 
-F 0 "J28" H 4530 3042 50  0000 L CNN
+F 0 "J27" H 4530 3042 50  0000 L CNN
 F 1 "Conn_01x02" H 4530 2951 50  0000 L CNN
 F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical" H 4450 3050 50  0001 C CNN
 F 3 "~" H 4450 3050 50  0001 C CNN
@@ -1118,9 +1118,9 @@ L Connector_Generic:Conn_01x02 J?
 U 1 1 5E50C463
 P 9200 1300
 AR Path="/5E50C463" Ref="J?"  Part="1" 
-AR Path="/5E1C04CF/5E50C463" Ref="J31"  Part="1" 
+AR Path="/5E1C04CF/5E50C463" Ref="J30"  Part="1" 
 AR Path="/5E3E0C4B/5E50C463" Ref="J?"  Part="1" 
-F 0 "J31" H 9280 1292 50  0000 L CNN
+F 0 "J30" H 9280 1292 50  0000 L CNN
 F 1 "Conn_01x02" H 9280 1201 50  0000 L CNN
 F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical" H 9200 1300 50  0001 C CNN
 F 3 "~" H 9200 1300 50  0001 C CNN
@@ -1431,9 +1431,9 @@ L Connector_Generic:Conn_01x02 J?
 U 1 1 5E42316A
 P 9200 6550
 AR Path="/5E42316A" Ref="J?"  Part="1" 
-AR Path="/5E1C04CF/5E42316A" Ref="J34"  Part="1" 
+AR Path="/5E1C04CF/5E42316A" Ref="J33"  Part="1" 
 AR Path="/5E3E0C4B/5E42316A" Ref="J?"  Part="1" 
-F 0 "J34" H 9280 6542 50  0000 L CNN
+F 0 "J33" H 9280 6542 50  0000 L CNN
 F 1 "Conn_01x02" H 9280 6451 50  0000 L CNN
 F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical" H 9200 6550 50  0001 C CNN
 F 3 "~" H 9200 6550 50  0001 C CNN
@@ -1716,9 +1716,9 @@ L Connector_Generic:Conn_01x02 J?
 U 1 1 5E4231F1
 P 9200 4800
 AR Path="/5E4231F1" Ref="J?"  Part="1" 
-AR Path="/5E1C04CF/5E4231F1" Ref="J33"  Part="1" 
+AR Path="/5E1C04CF/5E4231F1" Ref="J32"  Part="1" 
 AR Path="/5E3E0C4B/5E4231F1" Ref="J?"  Part="1" 
-F 0 "J33" H 9280 4792 50  0000 L CNN
+F 0 "J32" H 9280 4792 50  0000 L CNN
 F 1 "Conn_01x02" H 9280 4701 50  0000 L CNN
 F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical" H 9200 4800 50  0001 C CNN
 F 3 "~" H 9200 4800 50  0001 C CNN
@@ -2015,9 +2015,9 @@ L Connector_Generic:Conn_01x02 J?
 U 1 1 5E42327E
 P 9200 3050
 AR Path="/5E42327E" Ref="J?"  Part="1" 
-AR Path="/5E1C04CF/5E42327E" Ref="J32"  Part="1" 
+AR Path="/5E1C04CF/5E42327E" Ref="J31"  Part="1" 
 AR Path="/5E3E0C4B/5E42327E" Ref="J?"  Part="1" 
-F 0 "J32" H 9280 3042 50  0000 L CNN
+F 0 "J31" H 9280 3042 50  0000 L CNN
 F 1 "Conn_01x02" H 9280 2951 50  0000 L CNN
 F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical" H 9200 3050 50  0001 C CNN
 F 3 "~" H 9200 3050 50  0001 C CNN
@@ -2159,9 +2159,9 @@ L Connector_Generic:Conn_01x02 J?
 U 1 1 5E4D6D98
 P 4450 1300
 AR Path="/5E4D6D98" Ref="J?"  Part="1" 
-AR Path="/5E1C04CF/5E4D6D98" Ref="J27"  Part="1" 
+AR Path="/5E1C04CF/5E4D6D98" Ref="J26"  Part="1" 
 AR Path="/5E3E0C4B/5E4D6D98" Ref="J?"  Part="1" 
-F 0 "J27" H 4530 1292 50  0000 L CNN
+F 0 "J26" H 4530 1292 50  0000 L CNN
 F 1 "Conn_01x02" H 4530 1201 50  0000 L CNN
 F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical" H 4450 1300 50  0001 C CNN
 F 3 "~" H 4450 1300 50  0001 C CNN
