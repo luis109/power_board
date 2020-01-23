@@ -18,8 +18,8 @@ L Connector_Generic:Conn_01x02 J?
 U 1 1 5E41B282
 P 6450 1150
 AR Path="/5E41B282" Ref="J?"  Part="1" 
-AR Path="/5E4060AB/5E41B282" Ref="J7"  Part="1" 
-F 0 "J7" H 6530 1142 50  0000 L CNN
+AR Path="/5E4060AB/5E41B282" Ref="J6"  Part="1" 
+F 0 "J6" H 6530 1142 50  0000 L CNN
 F 1 "Conn_01x02" H 6530 1051 50  0000 L CNN
 F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical" H 6450 1150 50  0001 C CNN
 F 3 "~" H 6450 1150 50  0001 C CNN
@@ -100,8 +100,8 @@ L Connector_Generic:Conn_01x02 J?
 U 1 1 5E41B2C9
 P 7000 3650
 AR Path="/5E41B2C9" Ref="J?"  Part="1" 
-AR Path="/5E4060AB/5E41B2C9" Ref="J9"  Part="1" 
-F 0 "J9" H 7080 3642 50  0000 L CNN
+AR Path="/5E4060AB/5E41B2C9" Ref="J8"  Part="1" 
+F 0 "J8" H 7080 3642 50  0000 L CNN
 F 1 "Conn_01x02" H 7080 3551 50  0000 L CNN
 F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical" H 7000 3650 50  0001 C CNN
 F 3 "~" H 7000 3650 50  0001 C CNN
@@ -114,8 +114,8 @@ L Connector_Generic:Conn_01x02 J?
 U 1 1 5E41B2D0
 P 6450 2000
 AR Path="/5E41B2D0" Ref="J?"  Part="1" 
-AR Path="/5E4060AB/5E41B2D0" Ref="J8"  Part="1" 
-F 0 "J8" H 6530 1992 50  0000 L CNN
+AR Path="/5E4060AB/5E41B2D0" Ref="J7"  Part="1" 
+F 0 "J7" H 6530 1992 50  0000 L CNN
 F 1 "Conn_01x02" H 6530 1901 50  0000 L CNN
 F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical" H 6450 2000 50  0001 C CNN
 F 3 "~" H 6450 2000 50  0001 C CNN
@@ -128,8 +128,8 @@ L Connector_Generic:Conn_01x02 J?
 U 1 1 5E41B2DE
 P 7400 1150
 AR Path="/5E41B2DE" Ref="J?"  Part="1" 
-AR Path="/5E4060AB/5E41B2DE" Ref="J11"  Part="1" 
-F 0 "J11" H 7480 1142 50  0000 L CNN
+AR Path="/5E4060AB/5E41B2DE" Ref="J10"  Part="1" 
+F 0 "J10" H 7480 1142 50  0000 L CNN
 F 1 "Conn_01x02" H 7480 1051 50  0000 L CNN
 F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical" H 7400 1150 50  0001 C CNN
 F 3 "~" H 7400 1150 50  0001 C CNN
@@ -210,8 +210,8 @@ L Connector_Generic:Conn_01x02 J?
 U 1 1 5E41B32C
 P 7400 2000
 AR Path="/5E41B32C" Ref="J?"  Part="1" 
-AR Path="/5E4060AB/5E41B32C" Ref="J12"  Part="1" 
-F 0 "J12" H 7480 1992 50  0000 L CNN
+AR Path="/5E4060AB/5E41B32C" Ref="J11"  Part="1" 
+F 0 "J11" H 7480 1992 50  0000 L CNN
 F 1 "Conn_01x02" H 7480 1901 50  0000 L CNN
 F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical" H 7400 2000 50  0001 C CNN
 F 3 "~" H 7400 2000 50  0001 C CNN
@@ -224,8 +224,8 @@ L Connector_Generic:Conn_01x02 J?
 U 1 1 5E41B33A
 P 8350 1150
 AR Path="/5E41B33A" Ref="J?"  Part="1" 
-AR Path="/5E4060AB/5E41B33A" Ref="J13"  Part="1" 
-F 0 "J13" H 8430 1142 50  0000 L CNN
+AR Path="/5E4060AB/5E41B33A" Ref="J12"  Part="1" 
+F 0 "J12" H 8430 1142 50  0000 L CNN
 F 1 "Conn_01x02" H 8430 1051 50  0000 L CNN
 F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical" H 8350 1150 50  0001 C CNN
 F 3 "~" H 8350 1150 50  0001 C CNN
@@ -272,8 +272,8 @@ L Connector_Generic:Conn_01x02 J?
 U 1 1 5E41B396
 P 9300 1150
 AR Path="/5E41B396" Ref="J?"  Part="1" 
-AR Path="/5E4060AB/5E41B396" Ref="J17"  Part="1" 
-F 0 "J17" H 9380 1142 50  0000 L CNN
+AR Path="/5E4060AB/5E41B396" Ref="J16"  Part="1" 
+F 0 "J16" H 9380 1142 50  0000 L CNN
 F 1 "Conn_01x02" H 9380 1051 50  0000 L CNN
 F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical" H 9300 1150 50  0001 C CNN
 F 3 "~" H 9300 1150 50  0001 C CNN
@@ -354,8 +354,8 @@ L Connector_Generic:Conn_01x02 J?
 U 1 1 5E41B3E4
 P 9300 2000
 AR Path="/5E41B3E4" Ref="J?"  Part="1" 
-AR Path="/5E4060AB/5E41B3E4" Ref="J18"  Part="1" 
-F 0 "J18" H 9380 1992 50  0000 L CNN
+AR Path="/5E4060AB/5E41B3E4" Ref="J17"  Part="1" 
+F 0 "J17" H 9380 1992 50  0000 L CNN
 F 1 "Conn_01x02" H 9380 1901 50  0000 L CNN
 F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical" H 9300 2000 50  0001 C CNN
 F 3 "~" H 9300 2000 50  0001 C CNN
@@ -402,8 +402,8 @@ L Connector_Generic:Conn_01x02 J?
 U 1 1 5E41B440
 P 10250 2000
 AR Path="/5E41B440" Ref="J?"  Part="1" 
-AR Path="/5E4060AB/5E41B440" Ref="J20"  Part="1" 
-F 0 "J20" H 10330 1992 50  0000 L CNN
+AR Path="/5E4060AB/5E41B440" Ref="J19"  Part="1" 
+F 0 "J19" H 10330 1992 50  0000 L CNN
 F 1 "Conn_01x02" H 10330 1901 50  0000 L CNN
 F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical" H 10250 2000 50  0001 C CNN
 F 3 "~" H 10250 2000 50  0001 C CNN
@@ -478,10 +478,10 @@ $EndComp
 Text HLabel 4050 2300 2    50   Input ~ 0
 +5V_SB
 $Comp
-L Connector:ATX-24 J6
+L Connector:ATX-24 J5
 U 1 1 5E29B35F
 P 3400 2300
-F 0 "J6" H 3400 2867 50  0000 C CNN
+F 0 "J5" H 3400 2867 50  0000 C CNN
 F 1 "ATX-24" H 3400 2776 50  0000 C CNN
 F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-24A_2x12_P4.20mm_Vertical" H 3400 2200 50  0001 C CNN
 F 3 "https://www.intel.com/content/dam/www/public/us/en/documents/guides/power-supply-design-guide-june.pdf#page=33" H 5800 1750 50  0001 C CNN
@@ -494,8 +494,8 @@ L Connector_Generic:Conn_01x02 J?
 U 1 1 5E3EAC7E
 P 10250 1150
 AR Path="/5E3EAC7E" Ref="J?"  Part="1" 
-AR Path="/5E4060AB/5E3EAC7E" Ref="J19"  Part="1" 
-F 0 "J19" H 10330 1142 50  0000 L CNN
+AR Path="/5E4060AB/5E3EAC7E" Ref="J18"  Part="1" 
+F 0 "J18" H 10330 1142 50  0000 L CNN
 F 1 "Conn_01x02" H 10330 1051 50  0000 L CNN
 F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical" H 10250 1150 50  0001 C CNN
 F 3 "~" H 10250 1150 50  0001 C CNN
@@ -664,8 +664,8 @@ L Connector_Generic:Conn_01x02 J?
 U 1 1 5E726264
 P 8800 3650
 AR Path="/5E726264" Ref="J?"  Part="1" 
-AR Path="/5E4060AB/5E726264" Ref="J15"  Part="1" 
-F 0 "J15" H 8880 3642 50  0000 L CNN
+AR Path="/5E4060AB/5E726264" Ref="J14"  Part="1" 
+F 0 "J14" H 8880 3642 50  0000 L CNN
 F 1 "Conn_01x02" H 8880 3551 50  0000 L CNN
 F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical" H 8800 3650 50  0001 C CNN
 F 3 "~" H 8800 3650 50  0001 C CNN
@@ -800,8 +800,8 @@ L Connector_Generic:Conn_01x02 J?
 U 1 1 5E74047D
 P 10600 3650
 AR Path="/5E74047D" Ref="J?"  Part="1" 
-AR Path="/5E4060AB/5E74047D" Ref="J21"  Part="1" 
-F 0 "J21" H 10680 3642 50  0000 L CNN
+AR Path="/5E4060AB/5E74047D" Ref="J20"  Part="1" 
+F 0 "J20" H 10680 3642 50  0000 L CNN
 F 1 "Conn_01x02" H 10680 3551 50  0000 L CNN
 F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical" H 10600 3650 50  0001 C CNN
 F 3 "~" H 10600 3650 50  0001 C CNN
@@ -936,8 +936,8 @@ L Connector_Generic:Conn_01x02 J?
 U 1 1 5E7404BA
 P 7000 5350
 AR Path="/5E7404BA" Ref="J?"  Part="1" 
-AR Path="/5E4060AB/5E7404BA" Ref="J10"  Part="1" 
-F 0 "J10" H 7080 5342 50  0000 L CNN
+AR Path="/5E4060AB/5E7404BA" Ref="J9"  Part="1" 
+F 0 "J9" H 7080 5342 50  0000 L CNN
 F 1 "Conn_01x02" H 7080 5251 50  0000 L CNN
 F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical" H 7000 5350 50  0001 C CNN
 F 3 "~" H 7000 5350 50  0001 C CNN
@@ -1072,8 +1072,8 @@ L Connector_Generic:Conn_01x02 J?
 U 1 1 5E753385
 P 8800 5350
 AR Path="/5E753385" Ref="J?"  Part="1" 
-AR Path="/5E4060AB/5E753385" Ref="J16"  Part="1" 
-F 0 "J16" H 8880 5342 50  0000 L CNN
+AR Path="/5E4060AB/5E753385" Ref="J15"  Part="1" 
+F 0 "J15" H 8880 5342 50  0000 L CNN
 F 1 "Conn_01x02" H 8880 5251 50  0000 L CNN
 F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical" H 8800 5350 50  0001 C CNN
 F 3 "~" H 8800 5350 50  0001 C CNN
@@ -1315,8 +1315,8 @@ L Connector_Generic:Conn_01x02 J?
 U 1 1 5E408355
 P 8350 2000
 AR Path="/5E408355" Ref="J?"  Part="1" 
-AR Path="/5E4060AB/5E408355" Ref="J14"  Part="1" 
-F 0 "J14" H 8430 1992 50  0000 L CNN
+AR Path="/5E4060AB/5E408355" Ref="J13"  Part="1" 
+F 0 "J13" H 8430 1992 50  0000 L CNN
 F 1 "Conn_01x02" H 8430 1901 50  0000 L CNN
 F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical" H 8350 2000 50  0001 C CNN
 F 3 "~" H 8350 2000 50  0001 C CNN

@@ -933,36 +933,14 @@ F 3 "~" H 6400 7400 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x01 J4
-U 1 1 5E28A83A
+L Connector_Generic:Conn_01x01 J3
+U 1 1 5E29484D
 P 6400 7200
-F 0 "J4" H 6550 7150 50  0000 C CNN
+F 0 "J3" H 6550 7150 50  0000 C CNN
 F 1 "Conn_01x01" H 6750 7250 50  0000 C CNN
 F 2 "lsts-mecanical:MountingHole_3.5mm_Pad" H 6400 7200 50  0001 C CNN
 F 3 "~" H 6400 7200 50  0001 C CNN
 	1    6400 7200
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J3
-U 1 1 5E29484D
-P 6400 7000
-F 0 "J3" H 6550 6950 50  0000 C CNN
-F 1 "Conn_01x01" H 6750 7050 50  0000 C CNN
-F 2 "lsts-mecanical:MountingHole_3.5mm_Pad" H 6400 7000 50  0001 C CNN
-F 3 "~" H 6400 7000 50  0001 C CNN
-	1    6400 7000
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J2
-U 1 1 5E294857
-P 6400 6800
-F 0 "J2" H 6550 6750 50  0000 C CNN
-F 1 "Conn_01x01" H 6750 6850 50  0000 C CNN
-F 2 "lsts-mecanical:MountingHole_3.5mm_Pad" H 6400 6800 50  0001 C CNN
-F 3 "~" H 6400 6800 50  0001 C CNN
-	1    6400 6800
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -977,24 +955,12 @@ F 3 "" H 6700 7500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6600 6800 6700 6800
-Wire Wire Line
-	6700 6800 6700 7000
-Wire Wire Line
 	6600 7400 6700 7400
 Connection ~ 6700 7400
 Wire Wire Line
 	6700 7400 6700 7500
 Wire Wire Line
-	6600 7200 6700 7200
-Connection ~ 6700 7200
-Wire Wire Line
-	6700 7200 6700 7400
-Wire Wire Line
 	6600 7000 6700 7000
-Connection ~ 6700 7000
-Wire Wire Line
-	6700 7000 6700 7200
 Connection ~ 950  1600
 Wire Wire Line
 	950  3600 950  3700
@@ -1271,4 +1237,22 @@ Text Label 3000 2350 0    50   ~ 0
 LED
 Text Label 4950 2750 1    50   ~ 0
 LED
+$Comp
+L Connector_Generic:Conn_01x01 J2
+U 1 1 5E294857
+P 6400 7000
+F 0 "J2" H 6550 6950 50  0000 C CNN
+F 1 "Conn_01x01" H 6750 7050 50  0000 C CNN
+F 2 "lsts-mecanical:MountingHole_3.5mm_Pad" H 6400 7000 50  0001 C CNN
+F 3 "~" H 6400 7000 50  0001 C CNN
+	1    6400 7000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6700 7000 6700 7200
+Wire Wire Line
+	6600 7200 6700 7200
+Connection ~ 6700 7200
+Wire Wire Line
+	6700 7200 6700 7400
 $EndSCHEMATC
