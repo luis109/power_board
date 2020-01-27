@@ -778,7 +778,7 @@ $EndComp
 Wire Wire Line
 	8100 3200 7950 3200
 Connection ~ 8100 3200
-Text HLabel 7800 3750 1    50   Input ~ 0
+Text HLabel 6000 5450 1    50   Input ~ 0
 PWM2_5V
 $Comp
 L power:+5V #PWR034
@@ -914,7 +914,7 @@ $EndComp
 Wire Wire Line
 	9900 3200 9750 3200
 Connection ~ 9900 3200
-Text HLabel 9600 3750 1    50   Input ~ 0
+Text HLabel 7800 3750 1    50   Input ~ 0
 PWM3_5V
 $Comp
 L power:+5V #PWR046
@@ -1050,7 +1050,7 @@ $EndComp
 Wire Wire Line
 	6300 4900 6150 4900
 Connection ~ 6300 4900
-Text HLabel 6000 5450 1    50   Input ~ 0
+Text HLabel 7800 5450 1    50   Input ~ 0
 PWM4_5V
 $Comp
 L power:+5V #PWR027
@@ -1186,7 +1186,7 @@ $EndComp
 Wire Wire Line
 	8100 4900 7950 4900
 Connection ~ 8100 4900
-Text HLabel 7800 5450 1    50   Input ~ 0
+Text HLabel 9600 3750 1    50   Input ~ 0
 PWM5_5V
 $Comp
 L power:+5V #PWR035

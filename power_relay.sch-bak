@@ -166,8 +166,8 @@ L Connector_Generic:Conn_01x03 J?
 U 1 1 5E48FA71
 P 6150 2900
 AR Path="/5E1C04CF/5E48FA71" Ref="J?"  Part="1" 
-AR Path="/5E4850C0/5E48FA71" Ref="J26"  Part="1" 
-F 0 "J26" H 6230 2942 50  0000 L CNN
+AR Path="/5E4850C0/5E48FA71" Ref="J25"  Part="1" 
+F 0 "J25" H 6230 2942 50  0000 L CNN
 F 1 "Conn_01x03" H 6230 2851 50  0000 L CNN
 F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-3-3.5-H_1x03_P3.50mm_Horizontal" H 6150 2900 50  0001 C CNN
 F 3 "~" H 6150 2900 50  0001 C CNN
@@ -357,8 +357,8 @@ L Connector_Generic:Conn_01x03 J?
 U 1 1 5E48FAC9
 P 6150 1200
 AR Path="/5E1C04CF/5E48FAC9" Ref="J?"  Part="1" 
-AR Path="/5E4850C0/5E48FAC9" Ref="J25"  Part="1" 
-F 0 "J25" H 6230 1242 50  0000 L CNN
+AR Path="/5E4850C0/5E48FAC9" Ref="J24"  Part="1" 
+F 0 "J24" H 6230 1242 50  0000 L CNN
 F 1 "Conn_01x03" H 6230 1151 50  0000 L CNN
 F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-3-3.5-H_1x03_P3.50mm_Horizontal" H 6150 1200 50  0001 C CNN
 F 3 "~" H 6150 1200 50  0001 C CNN
@@ -532,8 +532,8 @@ L Connector_Generic:Conn_01x03 J?
 U 1 1 5E48FB1A
 P 3250 2900
 AR Path="/5E1C04CF/5E48FB1A" Ref="J?"  Part="1" 
-AR Path="/5E4850C0/5E48FB1A" Ref="J23"  Part="1" 
-F 0 "J23" H 3330 2942 50  0000 L CNN
+AR Path="/5E4850C0/5E48FB1A" Ref="J22"  Part="1" 
+F 0 "J22" H 3330 2942 50  0000 L CNN
 F 1 "Conn_01x03" H 3330 2851 50  0000 L CNN
 F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-3-3.5-H_1x03_P3.50mm_Horizontal" H 3250 2900 50  0001 C CNN
 F 3 "~" H 3250 2900 50  0001 C CNN
@@ -723,8 +723,8 @@ L Connector_Generic:Conn_01x03 J?
 U 1 1 5E48FB72
 P 3250 1200
 AR Path="/5E1C04CF/5E48FB72" Ref="J?"  Part="1" 
-AR Path="/5E4850C0/5E48FB72" Ref="J22"  Part="1" 
-F 0 "J22" H 3330 1242 50  0000 L CNN
+AR Path="/5E4850C0/5E48FB72" Ref="J21"  Part="1" 
+F 0 "J21" H 3330 1242 50  0000 L CNN
 F 1 "Conn_01x03" H 3330 1151 50  0000 L CNN
 F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-3-3.5-H_1x03_P3.50mm_Horizontal" H 3250 1200 50  0001 C CNN
 F 3 "~" H 3250 1200 50  0001 C CNN
@@ -914,8 +914,8 @@ L Connector_Generic:Conn_01x03 J?
 U 1 1 5E48FBCA
 P 3250 4600
 AR Path="/5E1C04CF/5E48FBCA" Ref="J?"  Part="1" 
-AR Path="/5E4850C0/5E48FBCA" Ref="J24"  Part="1" 
-F 0 "J24" H 3330 4642 50  0000 L CNN
+AR Path="/5E4850C0/5E48FBCA" Ref="J23"  Part="1" 
+F 0 "J23" H 3330 4642 50  0000 L CNN
 F 1 "Conn_01x03" H 3330 4551 50  0000 L CNN
 F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-3-3.5-H_1x03_P3.50mm_Horizontal" H 3250 4600 50  0001 C CNN
 F 3 "~" H 3250 4600 50  0001 C CNN

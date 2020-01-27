@@ -97,7 +97,7 @@ U 1 1 5DC5640F
 P 10550 2850
 F 0 "D2" V 10589 2733 50  0000 R CNN
 F 1 "LED" V 10498 2733 50  0000 R CNN
-F 2 "lsts-discretes:LED_0603" H 10550 2850 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 10550 2850 50  0001 C CNN
 F 3 "~" H 10550 2850 50  0001 C CNN
 	1    10550 2850
 	0    1    1    0   
@@ -108,7 +108,7 @@ U 1 1 5DC512F1
 P 10950 2850
 F 0 "D3" V 10897 2928 50  0000 L CNN
 F 1 "LED" V 10988 2928 50  0000 L CNN
-F 2 "lsts-discretes:LED_0603" H 10950 2850 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 10950 2850 50  0001 C CNN
 F 3 "~" H 10950 2850 50  0001 C CNN
 	1    10950 2850
 	0    1    1    0   
@@ -540,6 +540,32 @@ SCL
 Text Label 3600 5200 2    50   ~ 0
 SCL
 Wire Wire Line
+	2250 5900 2400 5900
+Wire Wire Line
+	2250 5700 2400 5700
+Wire Wire Line
+	2250 5800 2400 5800
+Wire Wire Line
+	2250 6600 2400 6600
+Wire Wire Line
+	2250 6700 2400 6700
+Wire Wire Line
+	2250 6300 2400 6300
+Wire Wire Line
+	2250 6500 2400 6500
+Wire Wire Line
+	4750 5200 4900 5200
+Wire Wire Line
+	4750 5300 4900 5300
+Wire Wire Line
+	4750 5400 4900 5400
+Wire Wire Line
+	4750 5500 4900 5500
+Wire Wire Line
+	4750 5600 4900 5600
+Wire Wire Line
+	4750 5700 4900 5700
+Wire Wire Line
 	2250 5200 2400 5200
 Wire Wire Line
 	2250 5300 2400 5300
@@ -549,41 +575,11 @@ Wire Wire Line
 	2250 5500 2400 5500
 Wire Wire Line
 	2250 5600 2400 5600
-Wire Wire Line
-	2250 5700 2400 5700
-Wire Wire Line
-	2250 5800 2400 5800
-Wire Wire Line
-	2250 5900 2400 5900
-Wire Wire Line
-	2250 6100 2400 6100
-Wire Wire Line
-	2250 6200 2400 6200
-Wire Wire Line
-	2250 6300 2400 6300
-Wire Wire Line
-	2250 6400 2400 6400
-Wire Wire Line
-	2250 6500 2400 6500
-Wire Wire Line
-	2250 6600 2400 6600
-Wire Wire Line
-	2250 6700 2400 6700
-Wire Wire Line
-	4750 6200 4900 6200
-Wire Wire Line
-	4750 6300 4900 6300
-Wire Wire Line
-	4750 6400 4900 6400
-Wire Wire Line
-	4750 6500 4900 6500
-Wire Wire Line
-	4750 6600 4900 6600
-Text Label 2400 5200 0    50   ~ 0
+Text Label 2400 5900 0    50   ~ 0
 MTR1_EN
-Text Label 2400 5300 0    50   ~ 0
+Text Label 2400 5700 0    50   ~ 0
 MTR1_FW
-Text Label 2400 5400 0    50   ~ 0
+Text Label 2400 5800 0    50   ~ 0
 MTR1_BW
 Text Label 7200 5000 2    50   ~ 0
 MTR2_EN
@@ -619,39 +615,35 @@ Text Label 9800 5000 2    50   ~ 0
 RLY4_EN
 Text Label 9800 5100 2    50   ~ 0
 RLY5_EN
-Text Label 2400 5500 0    50   ~ 0
-MTR2_EN
-Text Label 2400 5600 0    50   ~ 0
-MTR2_FW
-Text Label 2400 5700 0    50   ~ 0
-MTR2_BW
-Text Label 2400 5800 0    50   ~ 0
-MTR3_EN
-Text Label 2400 5900 0    50   ~ 0
-MTR3_FW
-Text Label 2400 6100 0    50   ~ 0
-MTR3_BW
-Text Label 2400 6200 0    50   ~ 0
-MTR4_EN
-Text Label 2400 6300 0    50   ~ 0
-MTR4_FW
-Text Label 2400 6400 0    50   ~ 0
-MTR4_BW
-Text Label 2400 6500 0    50   ~ 0
-MTR5_EN
 Text Label 2400 6600 0    50   ~ 0
-MTR5_FW
+MTR2_EN
 Text Label 2400 6700 0    50   ~ 0
+MTR2_BW
+Text Label 2400 6300 0    50   ~ 0
+MTR3_EN
+Text Label 2400 6500 0    50   ~ 0
+MTR3_FW
+Text Label 4900 5400 0    50   ~ 0
+MTR4_EN
+Text Label 4900 5200 0    50   ~ 0
+MTR4_FW
+Text Label 4900 5300 0    50   ~ 0
+MTR4_BW
+Text Label 4900 5700 0    50   ~ 0
+MTR5_EN
+Text Label 4900 5500 0    50   ~ 0
+MTR5_FW
+Text Label 4900 5600 0    50   ~ 0
 MTR5_BW
-Text Label 4900 6200 0    50   ~ 0
+Text Label 2400 5200 0    50   ~ 0
 RLY1_EN
-Text Label 4900 6300 0    50   ~ 0
+Text Label 2400 5300 0    50   ~ 0
 RLY2_EN
-Text Label 4900 6400 0    50   ~ 0
+Text Label 2400 5400 0    50   ~ 0
 RLY3_EN
-Text Label 4900 6500 0    50   ~ 0
+Text Label 2400 5500 0    50   ~ 0
 RLY4_EN
-Text Label 4900 6600 0    50   ~ 0
+Text Label 2400 5600 0    50   ~ 0
 RLY5_EN
 $Comp
 L Device:R R4
@@ -706,7 +698,6 @@ Wire Wire Line
 	1150 5300 1250 5300
 NoConn ~ 3750 5500
 NoConn ~ 1250 5500
-NoConn ~ 2250 6800
 NoConn ~ 950  2950
 NoConn ~ 950  2850
 Wire Wire Line
@@ -1000,7 +991,7 @@ U 1 1 5E321428
 P 4950 3450
 F 0 "D1" V 4897 3528 50  0000 L CNN
 F 1 "LED" V 4988 3528 50  0000 L CNN
-F 2 "lsts-discretes:LED_0603" H 4950 3450 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 4950 3450 50  0001 C CNN
 F 3 "~" H 4950 3450 50  0001 C CNN
 	1    4950 3450
 	0    -1   -1   0   
@@ -1051,43 +1042,41 @@ F 4 "PCA9555PW,118" H 4250 6000 50  0001 C CNN "manf#"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4750 5200 4900 5200
+	4750 6800 4900 6800
 Wire Wire Line
-	4750 5300 4900 5300
+	4750 6700 4900 6700
 Wire Wire Line
-	4750 5400 4900 5400
-Text Label 4900 5200 0    50   ~ 0
+	4750 6600 4900 6600
+Text Label 4900 6600 0    50   ~ 0
 MTR6_EN
-Text Label 4900 5300 0    50   ~ 0
+Text Label 4900 6800 0    50   ~ 0
 MTR6_FW
-Text Label 4900 5400 0    50   ~ 0
+Text Label 4900 6700 0    50   ~ 0
 MTR6_BW
-Wire Wire Line
-	4750 5500 4900 5500
-Wire Wire Line
-	4750 5600 4900 5600
-Wire Wire Line
-	4750 5700 4900 5700
-Text Label 4900 5500 0    50   ~ 0
-MTR7_EN
-Text Label 4900 5600 0    50   ~ 0
-MTR7_FW
-Text Label 4900 5700 0    50   ~ 0
-MTR7_BW
-Wire Wire Line
-	4750 5800 4900 5800
 Wire Wire Line
 	4750 5900 4900 5900
 Wire Wire Line
 	4750 6100 4900 6100
-Text Label 4900 5800 0    50   ~ 0
-MTR8_EN
+Wire Wire Line
+	4750 6200 4900 6200
+Text Label 4900 6300 0    50   ~ 0
+MTR7_EN
+Text Label 4900 6500 0    50   ~ 0
+MTR7_FW
+Text Label 4900 6400 0    50   ~ 0
+MTR7_BW
+Wire Wire Line
+	4750 6300 4900 6300
+Wire Wire Line
+	4750 6400 4900 6400
+Wire Wire Line
+	4750 6500 4900 6500
 Text Label 4900 5900 0    50   ~ 0
+MTR8_EN
+Text Label 4900 6200 0    50   ~ 0
 MTR8_FW
 Text Label 4900 6100 0    50   ~ 0
 MTR8_BW
-NoConn ~ 4750 6700
-NoConn ~ 4750 6800
 Wire Wire Line
 	950  1200 950  1500
 $Comp
@@ -1255,4 +1244,15 @@ Wire Wire Line
 Connection ~ 6700 7200
 Wire Wire Line
 	6700 7200 6700 7400
+NoConn ~ 2250 6100
+NoConn ~ 2250 6200
+Text Label 2400 6800 0    50   ~ 0
+MTR2_FW
+Wire Wire Line
+	2250 6800 2400 6800
+Text Label 2400 6400 0    50   ~ 0
+MTR3_BW
+Wire Wire Line
+	2250 6400 2400 6400
+NoConn ~ 4750 5800
 $EndSCHEMATC
