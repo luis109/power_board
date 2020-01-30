@@ -1042,40 +1042,40 @@ F 4 "PCA9555PW,118" H 4250 6000 50  0001 C CNN "manf#"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4750 5800 4900 5800
+	4750 6800 4900 6800
+Wire Wire Line
+	4750 6700 4900 6700
+Wire Wire Line
+	4750 6600 4900 6600
+Text Label 4900 6600 0    50   ~ 0
+MTR6_EN
+Text Label 4900 6800 0    50   ~ 0
+MTR6_FW
+Text Label 4900 6700 0    50   ~ 0
+MTR6_BW
 Wire Wire Line
 	4750 5900 4900 5900
 Wire Wire Line
 	4750 6100 4900 6100
-Text Label 4900 6100 0    50   ~ 0
-MTR6_EN
-Text Label 4900 5800 0    50   ~ 0
-MTR6_FW
-Text Label 4900 5900 0    50   ~ 0
-MTR6_BW
 Wire Wire Line
 	4750 6200 4900 6200
-Wire Wire Line
-	4750 6300 4900 6300
-Wire Wire Line
-	4750 6400 4900 6400
-Text Label 4900 6200 0    50   ~ 0
-MTR7_EN
 Text Label 4900 6300 0    50   ~ 0
+MTR7_EN
+Text Label 4900 6500 0    50   ~ 0
 MTR7_FW
 Text Label 4900 6400 0    50   ~ 0
 MTR7_BW
 Wire Wire Line
+	4750 6300 4900 6300
+Wire Wire Line
+	4750 6400 4900 6400
+Wire Wire Line
 	4750 6500 4900 6500
-Wire Wire Line
-	4750 6600 4900 6600
-Wire Wire Line
-	4750 6700 4900 6700
-Text Label 4900 6500 0    50   ~ 0
+Text Label 4900 5900 0    50   ~ 0
 MTR8_EN
-Text Label 4900 6600 0    50   ~ 0
+Text Label 4900 6200 0    50   ~ 0
 MTR8_FW
-Text Label 4900 6700 0    50   ~ 0
+Text Label 4900 6100 0    50   ~ 0
 MTR8_BW
 Wire Wire Line
 	950  1200 950  1500
@@ -1244,7 +1244,6 @@ Wire Wire Line
 Connection ~ 6700 7200
 Wire Wire Line
 	6700 7200 6700 7400
-NoConn ~ 4750 6800
 NoConn ~ 2250 6100
 NoConn ~ 2250 6200
 Text Label 2400 6800 0    50   ~ 0
@@ -1255,4 +1254,31 @@ Text Label 2400 6400 0    50   ~ 0
 MTR3_BW
 Wire Wire Line
 	2250 6400 2400 6400
+NoConn ~ 4750 5800
+Wire Wire Line
+	9550 6400 9550 6550
+$Comp
+L power:GND #PWR?
+U 1 1 5E358472
+P 9550 6550
+F 0 "#PWR?" H 9550 6300 50  0001 C CNN
+F 1 "GND" H 9555 6377 50  0000 C CNN
+F 2 "" H 9550 6550 50  0001 C CNN
+F 3 "" H 9550 6550 50  0001 C CNN
+	1    9550 6550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9550 6000 9550 6100
+$Comp
+L Device:CP C?
+U 1 1 5E37B7B3
+P 9550 6250
+F 0 "C?" H 9433 6296 50  0000 R CNN
+F 1 "47uF" H 9433 6205 50  0000 R CNN
+F 2 "" H 9588 6100 50  0001 C CNN
+F 3 "~" H 9550 6250 50  0001 C CNN
+	1    9550 6250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
