@@ -9911,13 +9911,13 @@
   (segment (start 145.56292 97.71876) (end 145.56292 98.43068) (width 0.3) (layer F.Cu) (net 181))
   (segment (start 145.56292 98.43068) (end 146.16938 99.03714) (width 0.3) (layer F.Cu) (net 181))
 
-  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 5E302C0D) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 5E39D019) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 220.96476 49.9999) (xy 221.0054 150.01748) (xy 80.00238 149.99716) (xy 80.00238 149.63648) (xy 80.00238 49.9872)
+        (xy 220.9927 149.99716) (xy 80.00746 149.99716) (xy 80.00746 50.00498) (xy 220.9927 50.00498)
       )
     )
     (filled_polygon
@@ -12289,13 +12289,13 @@
       )
     )
   )
-  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 5E302C0A) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 5E39D016) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 220.96476 49.9999) (xy 221.0054 150.01748) (xy 80.00238 149.99716) (xy 80.00238 149.63648) (xy 80.00238 49.9872)
+        (xy 220.9927 149.99716) (xy 80.00746 149.99716) (xy 80.00746 50.00498) (xy 220.9927 50.00498)
       )
     )
     (filled_polygon
