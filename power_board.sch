@@ -451,42 +451,6 @@ PWR_CTR
 Text Label 9550 6000 2    50   ~ 0
 +5V_SB
 Wire Wire Line
-	7350 4600 7200 4600
-Wire Wire Line
-	7350 4700 7200 4700
-Wire Wire Line
-	7350 4800 7200 4800
-Wire Wire Line
-	7350 5000 7200 5000
-Wire Wire Line
-	7350 5100 7200 5100
-Wire Wire Line
-	7350 5200 7200 5200
-Wire Wire Line
-	7350 5400 7200 5400
-Wire Wire Line
-	7350 5500 7200 5500
-Wire Wire Line
-	7350 5600 7200 5600
-Wire Wire Line
-	7350 5800 7200 5800
-Wire Wire Line
-	7350 5900 7200 5900
-Wire Wire Line
-	7350 6000 7200 6000
-Wire Wire Line
-	8600 4600 8750 4600
-Wire Wire Line
-	8600 4700 8750 4700
-Wire Wire Line
-	8600 4800 8750 4800
-Text Label 7200 4600 2    50   ~ 0
-MTR1_EN
-Text Label 7200 4700 2    50   ~ 0
-MTR1_FW
-Text Label 7200 4800 2    50   ~ 0
-MTR1_BW
-Wire Wire Line
 	9950 4700 9800 4700
 Wire Wire Line
 	9950 4800 9800 4800
@@ -590,30 +554,6 @@ Text Label 2400 5700 0    50   ~ 0
 MTR1_FW
 Text Label 2400 5800 0    50   ~ 0
 MTR1_BW
-Text Label 7200 5000 2    50   ~ 0
-MTR2_EN
-Text Label 7200 5400 2    50   ~ 0
-MTR3_EN
-Text Label 7200 5800 2    50   ~ 0
-MTR4_EN
-Text Label 8750 4600 0    50   ~ 0
-MTR5_EN
-Text Label 7200 5100 2    50   ~ 0
-MTR2_FW
-Text Label 7200 5200 2    50   ~ 0
-MTR2_BW
-Text Label 7200 5500 2    50   ~ 0
-MTR3_FW
-Text Label 7200 5600 2    50   ~ 0
-MTR3_BW
-Text Label 7200 5900 2    50   ~ 0
-MTR4_FW
-Text Label 7200 6000 2    50   ~ 0
-MTR4_BW
-Text Label 8750 4700 0    50   ~ 0
-MTR5_FW
-Text Label 8750 4800 0    50   ~ 0
-MTR5_BW
 Text Label 9800 4700 2    50   ~ 0
 RLY1_EN
 Text Label 9800 4800 2    50   ~ 0
@@ -812,72 +752,6 @@ F4 "RLY2_EN" I L 9950 4800 50
 F5 "RLY1_EN" I L 9950 4700 50 
 F6 "RLY3_EN" I L 9950 4900 50 
 $EndSheet
-$Sheet
-S 7350 4450 1250 1700
-U 5E1C04CF
-F0 "power_control" 50
-F1 "power_control.sch" 50
-F2 "MTR4_EN" I L 7350 5800 50 
-F3 "MTR4_FW" I L 7350 5900 50 
-F4 "MTR4_BW" I L 7350 6000 50 
-F5 "MTR3_EN" I L 7350 5400 50 
-F6 "MTR3_FW" I L 7350 5500 50 
-F7 "MTR3_BW" I L 7350 5600 50 
-F8 "MTR2_EN" I L 7350 5000 50 
-F9 "MTR2_FW" I L 7350 5100 50 
-F10 "MTR2_BW" I L 7350 5200 50 
-F11 "MTR1_EN" I L 7350 4600 50 
-F12 "MTR1_FW" I L 7350 4700 50 
-F13 "MTR1_BW" I L 7350 4800 50 
-F14 "MTR5_EN" I R 8600 4600 50 
-F15 "MTR5_FW" I R 8600 4700 50 
-F16 "MTR5_BW" I R 8600 4800 50 
-F17 "MTR8_EN" I R 8600 5800 50 
-F18 "MTR8_FW" I R 8600 5900 50 
-F19 "MTR8_BW" I R 8600 6000 50 
-F20 "MTR7_EN" I R 8600 5400 50 
-F21 "MTR7_FW" I R 8600 5500 50 
-F22 "MTR7_BW" I R 8600 5600 50 
-F23 "MTR6_EN" I R 8600 5000 50 
-F24 "MTR6_FW" I R 8600 5100 50 
-F25 "MTR6_BW" I R 8600 5200 50 
-$EndSheet
-Wire Wire Line
-	8600 5000 8750 5000
-Wire Wire Line
-	8600 5100 8750 5100
-Wire Wire Line
-	8600 5200 8750 5200
-Text Label 8750 5000 0    50   ~ 0
-MTR6_EN
-Text Label 8750 5100 0    50   ~ 0
-MTR6_FW
-Text Label 8750 5200 0    50   ~ 0
-MTR6_BW
-Wire Wire Line
-	8600 5400 8750 5400
-Wire Wire Line
-	8600 5500 8750 5500
-Wire Wire Line
-	8600 5600 8750 5600
-Text Label 8750 5400 0    50   ~ 0
-MTR7_EN
-Text Label 8750 5500 0    50   ~ 0
-MTR7_FW
-Text Label 8750 5600 0    50   ~ 0
-MTR7_BW
-Wire Wire Line
-	8600 5800 8750 5800
-Wire Wire Line
-	8600 5900 8750 5900
-Wire Wire Line
-	8600 6000 8750 6000
-Text Label 8750 5800 0    50   ~ 0
-MTR8_EN
-Text Label 8750 5900 0    50   ~ 0
-MTR8_FW
-Text Label 8750 6000 0    50   ~ 0
-MTR8_BW
 NoConn ~ 10250 1600
 NoConn ~ 10250 1800
 Wire Wire Line
@@ -1302,4 +1176,10 @@ F 4 "860010272003" H 9550 6250 50  0001 C CNN "manf#"
 	1    9550 6250
 	1    0    0    -1  
 $EndComp
+$Sheet
+S 7350 4450 1250 1700
+U 5E1C04CF
+F0 "power_control" 50
+F1 "power_control.sch" 50
+$EndSheet
 $EndSCHEMATC
