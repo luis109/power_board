@@ -548,12 +548,6 @@ Wire Wire Line
 	2250 5500 2400 5500
 Wire Wire Line
 	2250 5600 2400 5600
-Text Label 2400 5900 0    50   ~ 0
-MTR1_EN
-Text Label 2400 5700 0    50   ~ 0
-MTR1_FW
-Text Label 2400 5800 0    50   ~ 0
-MTR1_BW
 Text Label 9800 4700 2    50   ~ 0
 RLY1_EN
 Text Label 9800 4800 2    50   ~ 0
@@ -564,26 +558,6 @@ Text Label 9800 5000 2    50   ~ 0
 RLY4_EN
 Text Label 9800 5100 2    50   ~ 0
 RLY5_EN
-Text Label 2400 6600 0    50   ~ 0
-MTR2_EN
-Text Label 2400 6700 0    50   ~ 0
-MTR2_BW
-Text Label 2400 6300 0    50   ~ 0
-MTR3_EN
-Text Label 2400 6500 0    50   ~ 0
-MTR3_FW
-Text Label 4900 5400 0    50   ~ 0
-MTR4_EN
-Text Label 4900 5200 0    50   ~ 0
-MTR4_FW
-Text Label 4900 5300 0    50   ~ 0
-MTR4_BW
-Text Label 4900 5700 0    50   ~ 0
-MTR5_EN
-Text Label 4900 5500 0    50   ~ 0
-MTR5_FW
-Text Label 4900 5600 0    50   ~ 0
-MTR5_BW
 Text Label 2400 5200 0    50   ~ 0
 RLY1_EN
 Text Label 2400 5300 0    50   ~ 0
@@ -936,36 +910,18 @@ Wire Wire Line
 	4750 6700 4900 6700
 Wire Wire Line
 	4750 6600 4900 6600
-Text Label 4900 6600 0    50   ~ 0
-MTR6_EN
-Text Label 4900 6800 0    50   ~ 0
-MTR6_FW
-Text Label 4900 6700 0    50   ~ 0
-MTR6_BW
 Wire Wire Line
 	4750 5900 4900 5900
 Wire Wire Line
 	4750 6100 4900 6100
 Wire Wire Line
 	4750 6200 4900 6200
-Text Label 4900 6300 0    50   ~ 0
-MTR7_EN
-Text Label 4900 6500 0    50   ~ 0
-MTR7_FW
-Text Label 4900 6400 0    50   ~ 0
-MTR7_BW
 Wire Wire Line
 	4750 6300 4900 6300
 Wire Wire Line
 	4750 6400 4900 6400
 Wire Wire Line
 	4750 6500 4900 6500
-Text Label 4900 5900 0    50   ~ 0
-MTR8_EN
-Text Label 4900 6200 0    50   ~ 0
-MTR8_FW
-Text Label 4900 6100 0    50   ~ 0
-MTR8_BW
 Wire Wire Line
 	950  1200 950  1500
 $Comp
@@ -1140,12 +1096,8 @@ Wire Wire Line
 	6700 7200 6700 7400
 NoConn ~ 2250 6100
 NoConn ~ 2250 6200
-Text Label 2400 6800 0    50   ~ 0
-MTR2_FW
 Wire Wire Line
 	2250 6800 2400 6800
-Text Label 2400 6400 0    50   ~ 0
-MTR3_BW
 Wire Wire Line
 	2250 6400 2400 6400
 NoConn ~ 4750 5800
@@ -1181,5 +1133,173 @@ S 7350 4450 1250 1700
 U 5E1C04CF
 F0 "power_control" 50
 F1 "power_control.sch" 50
+F2 "MTR1_EN" I L 7350 4550 50 
+F3 "MTR1_PH" I L 7350 4650 50 
+F4 "MTR1_SL" I L 7350 4750 50 
+F5 "MTR2_EN" I L 7350 4900 50 
+F6 "MTR2_PH" I L 7350 5000 50 
+F7 "MTR2_SL" I L 7350 5100 50 
+F8 "MTR3_EN" I L 7350 5250 50 
+F9 "MTR3_PH" I L 7350 5350 50 
+F10 "MTR3_SL" I L 7350 5450 50 
+F11 "MTR4_EN" I L 7350 5600 50 
+F12 "MTR4_PH" I L 7350 5700 50 
+F13 "MTR4_SL" I L 7350 5800 50 
+F14 "MTR5_EN" I R 8600 4550 50 
+F15 "MTR5_PH" I R 8600 4650 50 
+F16 "MTR5_SL" I R 8600 4750 50 
+F17 "MTR6_EN" I R 8600 4900 50 
+F18 "MTR6_PH" I R 8600 5000 50 
+F19 "MTR6_SL" I R 8600 5100 50 
+F20 "MTR7_EN" I R 8600 5250 50 
+F21 "MTR7_PH" I R 8600 5350 50 
+F22 "MTR7_SL" I R 8600 5450 50 
+F23 "MTR8_EN" I R 8600 5600 50 
+F24 "MTR8_PH" I R 8600 5700 50 
+F25 "MTR8_SL" I R 8600 5800 50 
 $EndSheet
+Wire Wire Line
+	7350 4550 7200 4550
+Wire Wire Line
+	7350 4650 7200 4650
+Wire Wire Line
+	7350 4750 7200 4750
+Wire Wire Line
+	7350 4900 7200 4900
+Wire Wire Line
+	7350 5000 7200 5000
+Wire Wire Line
+	7350 5100 7200 5100
+Wire Wire Line
+	7350 5250 7200 5250
+Wire Wire Line
+	7350 5350 7200 5350
+Wire Wire Line
+	7350 5450 7200 5450
+Wire Wire Line
+	7350 5600 7200 5600
+Wire Wire Line
+	7350 5700 7200 5700
+Wire Wire Line
+	7350 5800 7200 5800
+Wire Wire Line
+	8750 4550 8600 4550
+Wire Wire Line
+	8750 4650 8600 4650
+Wire Wire Line
+	8750 4750 8600 4750
+Wire Wire Line
+	8750 4900 8600 4900
+Wire Wire Line
+	8750 5000 8600 5000
+Wire Wire Line
+	8750 5100 8600 5100
+Wire Wire Line
+	8750 5250 8600 5250
+Wire Wire Line
+	8750 5350 8600 5350
+Wire Wire Line
+	8750 5450 8600 5450
+Wire Wire Line
+	8750 5600 8600 5600
+Wire Wire Line
+	8750 5700 8600 5700
+Wire Wire Line
+	8750 5800 8600 5800
+Text Label 7200 4550 2    50   ~ 0
+MTR1_EN
+Text Label 7200 4650 2    50   ~ 0
+MTR1_PH
+Text Label 7200 4750 2    50   ~ 0
+MTR1_SL
+Text Label 7200 4900 2    50   ~ 0
+MTR2_EN
+Text Label 7200 5000 2    50   ~ 0
+MTR2_PH
+Text Label 7200 5100 2    50   ~ 0
+MTR2_SL
+Text Label 7200 5250 2    50   ~ 0
+MTR3_EN
+Text Label 7200 5350 2    50   ~ 0
+MTR3_PH
+Text Label 7200 5450 2    50   ~ 0
+MTR3_SL
+Text Label 7200 5600 2    50   ~ 0
+MTR4_EN
+Text Label 7200 5700 2    50   ~ 0
+MTR4_PH
+Text Label 7200 5800 2    50   ~ 0
+MTR4_SL
+Text Label 8750 4900 0    50   ~ 0
+MTR6_EN
+Text Label 8750 5000 0    50   ~ 0
+MTR6_PH
+Text Label 8750 5100 0    50   ~ 0
+MTR6_SL
+Text Label 8750 5250 0    50   ~ 0
+MTR7_EN
+Text Label 8750 5350 0    50   ~ 0
+MTR7_PH
+Text Label 8750 5450 0    50   ~ 0
+MTR7_SL
+Text Label 8750 5600 0    50   ~ 0
+MTR8_EN
+Text Label 8750 5700 0    50   ~ 0
+MTR8_PH
+Text Label 8750 5800 0    50   ~ 0
+MTR8_SL
+Text Label 2400 5700 0    50   ~ 0
+MTR1_EN
+Text Label 2400 5800 0    50   ~ 0
+MTR1_PH
+Text Label 2400 5900 0    50   ~ 0
+MTR1_SL
+Text Label 2400 6300 0    50   ~ 0
+MTR2_EN
+Text Label 2400 6400 0    50   ~ 0
+MTR2_PH
+Text Label 2400 6500 0    50   ~ 0
+MTR2_SL
+Text Label 2400 6600 0    50   ~ 0
+MTR3_EN
+Text Label 8750 4750 0    50   ~ 0
+MTR5_SL
+Text Label 8750 4650 0    50   ~ 0
+MTR5_PH
+Text Label 8750 4550 0    50   ~ 0
+MTR5_EN
+Text Label 2400 6700 0    50   ~ 0
+MTR3_PH
+Text Label 2400 6800 0    50   ~ 0
+MTR3_SL
+Text Label 4900 5900 0    50   ~ 0
+MTR6_EN
+Text Label 4900 6100 0    50   ~ 0
+MTR6_PH
+Text Label 4900 6200 0    50   ~ 0
+MTR6_SL
+Text Label 4900 6300 0    50   ~ 0
+MTR7_EN
+Text Label 4900 6400 0    50   ~ 0
+MTR7_PH
+Text Label 4900 6500 0    50   ~ 0
+MTR7_SL
+Text Label 4900 6600 0    50   ~ 0
+MTR8_EN
+Text Label 4900 6700 0    50   ~ 0
+MTR8_PH
+Text Label 4900 6800 0    50   ~ 0
+MTR8_SL
+Text Label 4900 5700 0    50   ~ 0
+MTR5_SL
+Text Label 4900 5600 0    50   ~ 0
+MTR5_PH
+Text Label 4900 5500 0    50   ~ 0
+MTR5_EN
+Text Label 4900 5200 0    50   ~ 0
+MTR4_EN
+Text Label 4900 5300 0    50   ~ 0
+MTR4_PH
+Text Label 4900 5400 0    50   ~ 0
+MTR4_SL
 $EndSCHEMATC
