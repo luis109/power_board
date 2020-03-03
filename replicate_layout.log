@@ -1,0 +1,31 @@
+03-03 17:28:59 replicate_layout.action_replicate_layout 295:Replicate layout plugin version: 46 started
+03-03 17:28:59 replicate_layout.action_replicate_layout 327:Preparing replicator with J26 as a reference
+03-03 17:28:59 replicate_layout.replicatelayout 201:getting project hierarchy from schematics
+03-03 17:28:59 replicate_layout.replicatelayout 203:Project hierarchy looks like:
+{'5E4060AB': ['power_passive', '/home/luis/kicad_projects/power_board/power_passive.sch'], '5E4850C0': ['power_relay', '/home/luis/kicad_projects/power_board/power_relay.sch'], '5E1C04CF': ['power_control', '/home/luis/kicad_projects/power_board/power_control.sch']}
+03-03 17:28:59 replicate_layout.replicatelayout 211:getting a list of all footprints on board
+03-03 17:28:59 replicate_layout.action_replicate_layout 353:Pivot footprint is 'J26'
+Located on:['power_control']
+With filenames:['power_control.sch']
+With sheet_id:['power_control']
+03-03 17:28:59 replicate_layout.action_replicate_layout 357:Corresponding footprints are 
+[('J26', ['power_control'])]
+03-03 17:28:59 replicate_layout.action_replicate_layout 370:Showing dialog
+03-03 17:28:59 replicate_layout.action_replicate_layout 374:Pcbnew position: wx.Point(0, -1)
+03-03 17:28:59 replicate_layout.action_replicate_layout 380:Display 0: wx.Rect(0, 0, 1920, 1080)
+03-03 17:28:59 replicate_layout.action_replicate_layout 380:Display 1: wx.Rect(1920, 0, 1920, 1080)
+03-03 17:28:59 replicate_layout.action_replicate_layout 384:Toolbar position: wx.Point(3804, 92)
+03-03 17:28:59 replicate_layout.action_replicate_layout 391:Dialog position: wx.Point(3491, 92)
+03-03 17:28:59 replicate_layout.replicatelayout 238:construcing a list of sheets suitable for replication on level:'power_control', file:'power_control.sch'
+03-03 17:28:59 replicate_layout.replicatelayout 245:Sheet ids up to the level:['power_control']
+03-03 17:28:59 replicate_layout.replicatelayout 249:Footprints on the sheets:
+['J26']
+03-03 17:28:59 replicate_layout.replicatelayout 252:Footprints raw sheet ids:
+['/5E1C04CF/5E5FF97F']
+03-03 17:28:59 replicate_layout.replicatelayout 268:All sheets to replicate:
+[['power_control']]
+03-03 17:28:59 replicate_layout.replicatelayout 273:All sheets to replicate sorted:
+[['power_control']]
+03-03 17:28:59 replicate_layout.replicatelayout 279:All sheets to replicate sorted and without pivot_sheet:
+[]
+03-03 17:29:10 replicate_layout.action_replicate_layout 241:User canceled the dialog
