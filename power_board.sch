@@ -1248,17 +1248,17 @@ Text Label 8750 5700 0    50   ~ 0
 MTR8_PH
 Text Label 8750 5800 0    50   ~ 0
 MTR8_SL
-Text Label 2400 5700 0    50   ~ 0
-MTR1_EN
-Text Label 2400 5800 0    50   ~ 0
-MTR1_PH
 Text Label 2400 5900 0    50   ~ 0
+MTR1_EN
+Text Label 2400 5700 0    50   ~ 0
+MTR1_PH
+Text Label 2400 5800 0    50   ~ 0
 MTR1_SL
 Text Label 2400 6600 0    50   ~ 0
 MTR2_EN
-Text Label 2400 6700 0    50   ~ 0
-MTR2_PH
 Text Label 2400 6800 0    50   ~ 0
+MTR2_PH
+Text Label 2400 6700 0    50   ~ 0
 MTR2_SL
 Text Label 2400 6300 0    50   ~ 0
 MTR3_EN
@@ -1268,9 +1268,9 @@ Text Label 8750 4650 0    50   ~ 0
 MTR5_PH
 Text Label 8750 4550 0    50   ~ 0
 MTR5_EN
-Text Label 2400 6400 0    50   ~ 0
-MTR3_PH
 Text Label 2400 6500 0    50   ~ 0
+MTR3_PH
+Text Label 2400 6400 0    50   ~ 0
 MTR3_SL
 Text Label 4900 6600 0    50   ~ 0
 MTR6_EN
