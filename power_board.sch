@@ -1274,32 +1274,32 @@ Text Label 2400 6400 0    50   ~ 0
 MTR3_SL
 Text Label 4900 6600 0    50   ~ 0
 MTR6_EN
-Text Label 4900 6700 0    50   ~ 0
-MTR6_PH
 Text Label 4900 6800 0    50   ~ 0
+MTR6_PH
+Text Label 4900 6700 0    50   ~ 0
 MTR6_SL
 Text Label 4900 6300 0    50   ~ 0
 MTR7_EN
-Text Label 4900 6400 0    50   ~ 0
-MTR7_PH
 Text Label 4900 6500 0    50   ~ 0
+MTR7_PH
+Text Label 4900 6400 0    50   ~ 0
 MTR7_SL
 Text Label 4900 5900 0    50   ~ 0
 MTR8_EN
-Text Label 4900 6100 0    50   ~ 0
-MTR8_PH
 Text Label 4900 6200 0    50   ~ 0
+MTR8_PH
+Text Label 4900 6100 0    50   ~ 0
 MTR8_SL
-Text Label 4900 5700 0    50   ~ 0
-MTR5_SL
 Text Label 4900 5600 0    50   ~ 0
-MTR5_PH
+MTR5_SL
 Text Label 4900 5500 0    50   ~ 0
+MTR5_PH
+Text Label 4900 5700 0    50   ~ 0
 MTR5_EN
-Text Label 4900 5200 0    50   ~ 0
-MTR4_EN
-Text Label 4900 5300 0    50   ~ 0
-MTR4_PH
 Text Label 4900 5400 0    50   ~ 0
+MTR4_EN
+Text Label 4900 5200 0    50   ~ 0
+MTR4_PH
+Text Label 4900 5300 0    50   ~ 0
 MTR4_SL
 $EndSCHEMATC
