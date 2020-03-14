@@ -1,11 +1,11 @@
-03-05 18:19:58 place_footprints.action_place_footprints 408:Place footprints plugin version: 37 started
-03-05 18:19:59 place_footprints.place_footprints 187:getting project hierarchy from schematics
-03-05 18:19:59 place_footprints.place_footprints 196:getting a list of all footprints on board
-03-05 18:19:59 place_footprints.action_place_footprints 454:Reference designator is: C
-03-05 18:19:59 place_footprints.action_place_footprints 455:Rerefence number is: 18
-03-05 18:19:59 place_footprints.action_place_footprints 486:Sorted and filtered list:
-['C1', 'C2', 'C3', 'C4', 'C5', 'C6', 'C7', 'C8', 'C9', 'C10', 'C11', 'C12', 'C13', 'C14', 'C15', 'C16', 'C17', 'C18', 'C19', 'C20', 'C21', 'C22', 'C23', 'C24', 'C25', 'C26', 'C27', 'C28', 'C29', 'C30', 'C31', 'C32', 'C33', 'C34', 'C35', 'C36', 'C37', 'C38', 'C39', 'C40', 'C41', 'C42']
-03-05 18:20:33 place_footprints.action_place_footprints 517:Modules to place:
-['C18', 'C20', 'C22', 'C30', 'C32', 'C34', 'C40', 'C42']
-03-05 18:20:33 place_footprints.place_footprints 348:Starting placing with linear layout
-03-05 18:20:33 place_footprints.action_place_footprints 555:Placing complete
+03-14 18:58:27 place_footprints.action_place_footprints 408:Place footprints plugin version: 37 started
+03-14 18:58:36 place_footprints.place_footprints 187:getting project hierarchy from schematics
+03-14 18:58:36 place_footprints.place_footprints 196:getting a list of all footprints on board
+03-14 18:58:36 place_footprints.action_place_footprints 454:Reference designator is: Q
+03-14 18:58:36 place_footprints.action_place_footprints 455:Rerefence number is: 12
+03-14 18:58:36 place_footprints.action_place_footprints 486:Sorted and filtered list:
+['Q1', 'Q2', 'Q3', 'Q4', 'Q5', 'Q6', 'Q7', 'Q8', 'Q9', 'Q10', 'Q11', 'Q12', 'Q13', 'Q14', 'Q15', 'Q16', 'Q17', 'Q18', 'Q19', 'Q20', 'Q21']
+03-14 18:58:55 place_footprints.action_place_footprints 517:Modules to place:
+['Q12', 'Q13', 'Q14', 'Q18', 'Q19']
+03-14 18:58:55 place_footprints.place_footprints 348:Starting placing with linear layout
+03-14 18:58:55 place_footprints.action_place_footprints 555:Placing complete
