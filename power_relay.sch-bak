@@ -50,7 +50,7 @@ Wire Wire Line
 Wire Wire Line
 	4700 3350 4700 3750
 $Comp
-L lsts-devices:RELAY_1RT K?
+L power_board-rescue:RELAY_1RT-lsts-devices K?
 U 1 1 5E48FA40
 P 5400 2900
 AR Path="/5E48FA40" Ref="K?"  Part="1" 
@@ -243,7 +243,7 @@ Wire Wire Line
 Wire Wire Line
 	4700 1650 4700 2050
 $Comp
-L lsts-devices:RELAY_1RT K?
+L power_board-rescue:RELAY_1RT-lsts-devices K?
 U 1 1 5E48FA98
 P 5400 1200
 AR Path="/5E48FA98" Ref="K?"  Part="1" 
@@ -436,7 +436,7 @@ Wire Wire Line
 Wire Wire Line
 	1800 3350 1800 3750
 $Comp
-L lsts-devices:RELAY_1RT K?
+L power_board-rescue:RELAY_1RT-lsts-devices K?
 U 1 1 5E48FAF0
 P 2500 2900
 AR Path="/5E48FAF0" Ref="K?"  Part="1" 
@@ -613,7 +613,7 @@ Wire Wire Line
 Wire Wire Line
 	1800 1650 1800 2050
 $Comp
-L lsts-devices:RELAY_1RT K?
+L power_board-rescue:RELAY_1RT-lsts-devices K?
 U 1 1 5E48FB41
 P 2500 1200
 AR Path="/5E48FB41" Ref="K?"  Part="1" 
@@ -806,7 +806,7 @@ Wire Wire Line
 Wire Wire Line
 	1800 5050 1800 5450
 $Comp
-L lsts-devices:RELAY_1RT K?
+L power_board-rescue:RELAY_1RT-lsts-devices K?
 U 1 1 5E48FB99
 P 2500 4600
 AR Path="/5E48FB99" Ref="K?"  Part="1" 
