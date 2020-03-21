@@ -1,11 +1,1 @@
-03-14 18:58:27 place_footprints.action_place_footprints 408:Place footprints plugin version: 37 started
-03-14 18:58:36 place_footprints.place_footprints 187:getting project hierarchy from schematics
-03-14 18:58:36 place_footprints.place_footprints 196:getting a list of all footprints on board
-03-14 18:58:36 place_footprints.action_place_footprints 454:Reference designator is: Q
-03-14 18:58:36 place_footprints.action_place_footprints 455:Rerefence number is: 12
-03-14 18:58:36 place_footprints.action_place_footprints 486:Sorted and filtered list:
-['Q1', 'Q2', 'Q3', 'Q4', 'Q5', 'Q6', 'Q7', 'Q8', 'Q9', 'Q10', 'Q11', 'Q12', 'Q13', 'Q14', 'Q15', 'Q16', 'Q17', 'Q18', 'Q19', 'Q20', 'Q21']
-03-14 18:58:55 place_footprints.action_place_footprints 517:Modules to place:
-['Q12', 'Q13', 'Q14', 'Q18', 'Q19']
-03-14 18:58:55 place_footprints.place_footprints 348:Starting placing with linear layout
-03-14 18:58:55 place_footprints.action_place_footprints 555:Placing complete
+03-20 21:08:52 place_footprints.action_place_footprints 408:Place footprints plugin version: 37 started

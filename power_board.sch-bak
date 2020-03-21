@@ -1286,9 +1286,9 @@ Text Label 4900 6400 0    50   ~ 0
 MTR7_SL
 Text Label 4900 5900 0    50   ~ 0
 MTR8_EN
-Text Label 4900 6100 0    50   ~ 0
-MTR8_PH
 Text Label 4900 6200 0    50   ~ 0
+MTR8_PH
+Text Label 4900 6100 0    50   ~ 0
 MTR8_SL
 Text Label 4900 5600 0    50   ~ 0
 MTR5_SL

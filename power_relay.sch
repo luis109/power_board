@@ -58,7 +58,7 @@ AR Path="/5E1C04CF/5E48FA40" Ref="K?"  Part="1"
 AR Path="/5E3E0C4B/5E48FA40" Ref="K?"  Part="1" 
 AR Path="/5E4850C0/5E48FA40" Ref="K5"  Part="1" 
 F 0 "K5" H 5400 3176 70  0000 C CNN
-F 1 "RELAY_1RT" H 5400 3055 70  0000 C CNN
+F 1 "lsts-devices:RELAY_1RT" H 5400 3055 70  0000 C CNN
 F 2 "Relay_THT:Relay_SPDT_Panasonic_JW1_FormC_lsts" H 5400 2900 60  0001 C CNN
 F 3 "https://pt.mouser.com/datasheet/2/315/panasonic%20electric%20works_jw-catalog-1196972.pdf" H 5400 2900 60  0001 C CNN
 F 4 "JW1FSN-DC12V" H 5400 2900 50  0001 C CNN "manf#"
@@ -251,7 +251,7 @@ AR Path="/5E1C04CF/5E48FA98" Ref="K?"  Part="1"
 AR Path="/5E3E0C4B/5E48FA98" Ref="K?"  Part="1" 
 AR Path="/5E4850C0/5E48FA98" Ref="K4"  Part="1" 
 F 0 "K4" H 5400 1476 70  0000 C CNN
-F 1 "RELAY_1RT" H 5400 1355 70  0000 C CNN
+F 1 "lsts-devices:RELAY_1RT" H 5400 1355 70  0000 C CNN
 F 2 "Relay_THT:Relay_SPDT_Panasonic_JW1_FormC_lsts" H 5400 1200 60  0001 C CNN
 F 3 "https://pt.mouser.com/datasheet/2/315/panasonic%20electric%20works_jw-catalog-1196972.pdf" H 5400 1200 60  0001 C CNN
 F 4 "JW1FSN-DC12V" H 5400 1200 50  0001 C CNN "manf#"
@@ -444,7 +444,7 @@ AR Path="/5E1C04CF/5E48FAF0" Ref="K?"  Part="1"
 AR Path="/5E3E0C4B/5E48FAF0" Ref="K?"  Part="1" 
 AR Path="/5E4850C0/5E48FAF0" Ref="K2"  Part="1" 
 F 0 "K2" H 2500 3176 70  0000 C CNN
-F 1 "RELAY_1RT" H 2500 3055 70  0000 C CNN
+F 1 "lsts-devices:RELAY_1RT" H 2500 3055 70  0000 C CNN
 F 2 "Relay_THT:Relay_SPDT_Panasonic_JW1_FormC_lsts" H 2500 2900 60  0001 C CNN
 F 3 "https://pt.mouser.com/datasheet/2/315/panasonic%20electric%20works_jw-catalog-1196972.pdf" H 2500 2900 60  0001 C CNN
 F 4 "JW1FSN-DC12V" H 2500 2900 50  0001 C CNN "manf#"
@@ -621,7 +621,7 @@ AR Path="/5E1C04CF/5E48FB41" Ref="K?"  Part="1"
 AR Path="/5E3E0C4B/5E48FB41" Ref="K?"  Part="1" 
 AR Path="/5E4850C0/5E48FB41" Ref="K1"  Part="1" 
 F 0 "K1" H 2500 1476 70  0000 C CNN
-F 1 "RELAY_1RT" H 2500 1355 70  0000 C CNN
+F 1 "lsts-devices:RELAY_1RT" H 2500 1355 70  0000 C CNN
 F 2 "Relay_THT:Relay_SPDT_Panasonic_JW1_FormC_lsts" H 2500 1200 60  0001 C CNN
 F 3 "https://pt.mouser.com/datasheet/2/315/panasonic%20electric%20works_jw-catalog-1196972.pdf" H 2500 1200 60  0001 C CNN
 F 4 "JW1FSN-DC12V" H 2500 1200 50  0001 C CNN "manf#"
@@ -814,7 +814,7 @@ AR Path="/5E1C04CF/5E48FB99" Ref="K?"  Part="1"
 AR Path="/5E3E0C4B/5E48FB99" Ref="K?"  Part="1" 
 AR Path="/5E4850C0/5E48FB99" Ref="K3"  Part="1" 
 F 0 "K3" H 2500 4876 70  0000 C CNN
-F 1 "RELAY_1RT" H 2500 4755 70  0000 C CNN
+F 1 "lsts-devices:RELAY_1RT" H 2500 4755 70  0000 C CNN
 F 2 "Relay_THT:Relay_SPDT_Panasonic_JW1_FormC_lsts" H 2500 4600 60  0001 C CNN
 F 3 "https://pt.mouser.com/datasheet/2/315/panasonic%20electric%20works_jw-catalog-1196972.pdf" H 2500 4600 60  0001 C CNN
 F 4 "JW1FSN-DC12V" H 2500 4600 50  0001 C CNN "manf#"
