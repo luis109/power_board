@@ -461,38 +461,6 @@ Wire Wire Line
 Wire Wire Line
 	9950 5100 9800 5100
 Wire Wire Line
-	1750 7000 1750 7050
-Connection ~ 1750 7050
-Wire Wire Line
-	1750 7050 1750 7150
-$Comp
-L power:GND #PWR02
-U 1 1 5E1B9B28
-P 1750 7150
-F 0 "#PWR02" H 1750 6900 50  0001 C CNN
-F 1 "GND" H 1755 6977 50  0000 C CNN
-F 2 "" H 1750 7150 50  0001 C CNN
-F 3 "" H 1750 7150 50  0001 C CNN
-	1    1750 7150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4250 7000 4250 7050
-Connection ~ 4250 7050
-Wire Wire Line
-	4250 7050 4250 7150
-$Comp
-L power:GND #PWR08
-U 1 1 5E1C2465
-P 4250 7150
-F 0 "#PWR08" H 4250 6900 50  0001 C CNN
-F 1 "GND" H 4255 6977 50  0000 C CNN
-F 2 "" H 4250 7150 50  0001 C CNN
-F 3 "" H 4250 7150 50  0001 C CNN
-	1    4250 7150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
 	2850 2750 3000 2750
 Wire Wire Line
 	2850 2850 3000 2850
@@ -500,54 +468,6 @@ Text Label 3000 2850 0    50   ~ 0
 SCL
 Text Label 3000 2750 0    50   ~ 0
 SDA
-Wire Wire Line
-	3750 5200 3600 5200
-Wire Wire Line
-	3750 5300 3600 5300
-Text Label 850  5300 2    50   ~ 0
-SDA
-Text Label 3600 5300 2    50   ~ 0
-SDA
-Text Label 850  5200 2    50   ~ 0
-SCL
-Text Label 3600 5200 2    50   ~ 0
-SCL
-Wire Wire Line
-	2250 5900 2400 5900
-Wire Wire Line
-	2250 5700 2400 5700
-Wire Wire Line
-	2250 5800 2400 5800
-Wire Wire Line
-	2250 6600 2400 6600
-Wire Wire Line
-	2250 6700 2400 6700
-Wire Wire Line
-	2250 6300 2400 6300
-Wire Wire Line
-	2250 6500 2400 6500
-Wire Wire Line
-	4750 5200 4900 5200
-Wire Wire Line
-	4750 5300 4900 5300
-Wire Wire Line
-	4750 5400 4900 5400
-Wire Wire Line
-	4750 5500 4900 5500
-Wire Wire Line
-	4750 5600 4900 5600
-Wire Wire Line
-	4750 5700 4900 5700
-Wire Wire Line
-	2250 5200 2400 5200
-Wire Wire Line
-	2250 5300 2400 5300
-Wire Wire Line
-	2250 5400 2400 5400
-Wire Wire Line
-	2250 5500 2400 5500
-Wire Wire Line
-	2250 5600 2400 5600
 Text Label 9800 4700 2    50   ~ 0
 RLY1_EN
 Text Label 9800 4800 2    50   ~ 0
@@ -558,72 +478,6 @@ Text Label 9800 5000 2    50   ~ 0
 RLY4_EN
 Text Label 9800 5100 2    50   ~ 0
 RLY5_EN
-Text Label 2400 5200 0    50   ~ 0
-RLY1_EN
-Text Label 2400 5300 0    50   ~ 0
-RLY2_EN
-Text Label 2400 5400 0    50   ~ 0
-RLY3_EN
-Text Label 2400 5500 0    50   ~ 0
-RLY4_EN
-Text Label 2400 5600 0    50   ~ 0
-RLY5_EN
-$Comp
-L Device:R R4
-U 1 1 5E1910A1
-P 3750 6400
-F 0 "R4" H 3819 6354 50  0000 L CNN
-F 1 "10kR" H 3819 6445 50  0000 L CNN
-F 2 "lsts-passives:R_0603" V 3680 6400 50  0001 C CNN
-F 3 "~" H 3750 6400 50  0001 C CNN
-F 4 "CRCW060310K0JNEBC" H 3750 6400 50  0001 C CNN "manf#"
-	1    3750 6400
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	3750 6550 3750 6600
-Wire Wire Line
-	3750 6200 3750 6250
-$Comp
-L Device:R R2
-U 1 1 5E1C3EAF
-P 1150 4950
-F 0 "R2" H 1080 4904 50  0000 R CNN
-F 1 "10kR" H 1080 4995 50  0000 R CNN
-F 2 "lsts-passives:R_0603" V 1080 4950 50  0001 C CNN
-F 3 "~" H 1150 4950 50  0001 C CNN
-F 4 "CRCW060310K0JNEBC" H 1150 4950 50  0001 C CNN "manf#"
-	1    1150 4950
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R R1
-U 1 1 5E1CDA66
-P 950 4950
-F 0 "R1" H 1019 4904 50  0000 L CNN
-F 1 "10kR" H 1019 4995 50  0000 L CNN
-F 2 "lsts-passives:R_0603" V 880 4950 50  0001 C CNN
-F 3 "~" H 950 4950 50  0001 C CNN
-F 4 "CRCW060310K0JNEBC" H 950 4950 50  0001 C CNN "manf#"
-	1    950  4950
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	850  5200 950  5200
-Wire Wire Line
-	850  5300 1150 5300
-Wire Wire Line
-	950  5100 950  5200
-Connection ~ 950  5200
-Wire Wire Line
-	950  5200 1250 5200
-Wire Wire Line
-	1150 5100 1150 5300
-Connection ~ 1150 5300
-Wire Wire Line
-	1150 5300 1250 5300
-NoConn ~ 3750 5500
-NoConn ~ 1250 5500
 NoConn ~ 950  2950
 NoConn ~ 950  2850
 Wire Wire Line
@@ -672,49 +526,10 @@ Text Label 7800 1900 0    50   ~ 0
 5V_USB
 Text Label 10750 3600 3    50   ~ 0
 5V_USB
-Text Label 4250 4800 1    50   ~ 0
-+5V_SB
-Text Label 1750 4800 1    50   ~ 0
-+5V_SB
-Text Label 3750 6200 1    50   ~ 0
-+5V_SB
 Text Label 8500 2100 2    50   ~ 0
 5V_USB
 Text Label 3400 850  0    50   ~ 0
 +5V_SB
-Wire Wire Line
-	3750 7050 4250 7050
-Wire Wire Line
-	1250 7050 1750 7050
-Wire Wire Line
-	950  4800 1150 4800
-Wire Wire Line
-	1750 4800 1750 5000
-Connection ~ 1150 4800
-Wire Wire Line
-	1150 4800 1750 4800
-Wire Wire Line
-	4250 4800 4250 5000
-$Comp
-L Interface_Expansion:PCA9555PW U1
-U 1 1 5E28C31F
-P 1750 6000
-F 0 "U1" H 1750 7181 50  0000 C CNN
-F 1 "PCA9555PW" H 1750 7090 50  0000 C CNN
-F 2 "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm" H 1750 6000 50  0001 C CNN
-F 3 "https://www.nxp.com/docs/en/data-sheet/PCA9555.pdf" H 1750 6000 50  0001 C CNN
-F 4 "PCA9555PW,118" H 1750 6000 50  0001 C CNN "manf#"
-	1    1750 6000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1250 6600 1250 6700
-Wire Wire Line
-	1250 6700 1250 6800
-Connection ~ 1250 6700
-Connection ~ 1250 6800
-Wire Wire Line
-	1250 6800 1250 7050
 $Sheet
 S 9950 4600 550  600 
 U 5E4850C0
@@ -888,41 +703,6 @@ $EndComp
 Wire Wire Line
 	4950 3600 4950 3750
 Wire Wire Line
-	3750 6800 3750 7050
-Wire Wire Line
-	3750 6700 3750 6800
-Connection ~ 3750 6800
-$Comp
-L Interface_Expansion:PCA9555PW U3
-U 1 1 5E2959DE
-P 4250 6000
-F 0 "U3" H 4250 7181 50  0000 C CNN
-F 1 "PCA9555PW" H 4250 7090 50  0000 C CNN
-F 2 "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm" H 4250 6000 50  0001 C CNN
-F 3 "https://www.nxp.com/docs/en/data-sheet/PCA9555.pdf" H 4250 6000 50  0001 C CNN
-F 4 "PCA9555PW,118" H 4250 6000 50  0001 C CNN "manf#"
-	1    4250 6000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4750 6800 4900 6800
-Wire Wire Line
-	4750 6700 4900 6700
-Wire Wire Line
-	4750 6600 4900 6600
-Wire Wire Line
-	4750 5900 4900 5900
-Wire Wire Line
-	4750 6100 4900 6100
-Wire Wire Line
-	4750 6200 4900 6200
-Wire Wire Line
-	4750 6300 4900 6300
-Wire Wire Line
-	4750 6400 4900 6400
-Wire Wire Line
-	4750 6500 4900 6500
-Wire Wire Line
 	950  1200 950  1500
 $Comp
 L Device:C C5
@@ -1014,61 +794,6 @@ Wire Wire Line
 	7600 2550 7800 2550
 Text Label 7600 2400 1    50   ~ 0
 5V_USB
-Wire Wire Line
-	1750 4800 1900 4800
-Connection ~ 1750 4800
-$Comp
-L Device:C C1
-U 1 1 5E59E313
-P 2050 4800
-F 0 "C1" V 1798 4800 50  0000 C CNN
-F 1 "100nF" V 1889 4800 50  0000 C CNN
-F 2 "lsts-passives:C_0603" H 2088 4650 50  0001 C CNN
-F 3 "~" H 2050 4800 50  0001 C CNN
-F 4 "EMK107B7104KAHT" H 2050 4800 50  0001 C CNN "manf#"
-	1    2050 4800
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2200 4800 2350 4800
-$Comp
-L power:GND #PWR04
-U 1 1 5E5AD9E4
-P 2350 4800
-F 0 "#PWR04" H 2350 4550 50  0001 C CNN
-F 1 "GND" H 2355 4627 50  0000 C CNN
-F 2 "" H 2350 4800 50  0001 C CNN
-F 3 "" H 2350 4800 50  0001 C CNN
-	1    2350 4800
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	4250 4800 4400 4800
-$Comp
-L Device:C C7
-U 1 1 5E5B075C
-P 4550 4800
-F 0 "C7" V 4298 4800 50  0000 C CNN
-F 1 "100nF" V 4389 4800 50  0000 C CNN
-F 2 "lsts-passives:C_0603" H 4588 4650 50  0001 C CNN
-F 3 "~" H 4550 4800 50  0001 C CNN
-F 4 "EMK107B7104KAHT" H 4550 4800 50  0001 C CNN "manf#"
-	1    4550 4800
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4700 4800 4850 4800
-$Comp
-L power:GND #PWR010
-U 1 1 5E5B0763
-P 4850 4800
-F 0 "#PWR010" H 4850 4550 50  0001 C CNN
-F 1 "GND" H 4855 4627 50  0000 C CNN
-F 2 "" H 4850 4800 50  0001 C CNN
-F 3 "" H 4850 4800 50  0001 C CNN
-	1    4850 4800
-	0    -1   -1   0   
-$EndComp
 NoConn ~ 2850 3800
 Wire Wire Line
 	2850 2350 3000 2350
@@ -1094,13 +819,6 @@ Wire Wire Line
 Connection ~ 6700 7200
 Wire Wire Line
 	6700 7200 6700 7400
-NoConn ~ 2250 6100
-NoConn ~ 2250 6200
-Wire Wire Line
-	2250 6800 2400 6800
-Wire Wire Line
-	2250 6400 2400 6400
-NoConn ~ 4750 5800
 Wire Wire Line
 	9550 6400 9550 6550
 $Comp
@@ -1248,58 +966,438 @@ Text Label 8750 5700 0    50   ~ 0
 MTR8_PH
 Text Label 8750 5800 0    50   ~ 0
 MTR8_SL
-Text Label 2400 5900 0    50   ~ 0
-MTR1_EN
-Text Label 2400 5700 0    50   ~ 0
-MTR1_PH
-Text Label 2400 5800 0    50   ~ 0
-MTR1_SL
-Text Label 2400 6600 0    50   ~ 0
-MTR2_EN
-Text Label 2400 6800 0    50   ~ 0
-MTR2_PH
-Text Label 2400 6700 0    50   ~ 0
-MTR2_SL
-Text Label 2400 6300 0    50   ~ 0
-MTR3_EN
 Text Label 8750 4750 0    50   ~ 0
 MTR5_SL
 Text Label 8750 4650 0    50   ~ 0
 MTR5_PH
 Text Label 8750 4550 0    50   ~ 0
 MTR5_EN
-Text Label 2400 6500 0    50   ~ 0
+Wire Wire Line
+	2050 7250 2050 7300
+Connection ~ 2050 7300
+Wire Wire Line
+	2050 7300 2050 7400
+$Comp
+L power:GND #PWR0119
+U 1 1 5E7AEDB2
+P 2050 7400
+F 0 "#PWR0119" H 2050 7150 50  0001 C CNN
+F 1 "GND" H 2055 7227 50  0000 C CNN
+F 2 "" H 2050 7400 50  0001 C CNN
+F 3 "" H 2050 7400 50  0001 C CNN
+	1    2050 7400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 7250 4800 7300
+Connection ~ 4800 7300
+Wire Wire Line
+	4800 7300 4800 7400
+$Comp
+L power:GND #PWR0120
+U 1 1 5E7AEDBB
+P 4800 7400
+F 0 "#PWR0120" H 4800 7150 50  0001 C CNN
+F 1 "GND" H 4805 7227 50  0000 C CNN
+F 2 "" H 4800 7400 50  0001 C CNN
+F 3 "" H 4800 7400 50  0001 C CNN
+	1    4800 7400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 5450 3950 5450
+Wire Wire Line
+	4100 5550 3950 5550
+Text Label 950  5550 2    50   ~ 0
+SDA
+Text Label 3950 5550 2    50   ~ 0
+SDA
+Text Label 950  5450 2    50   ~ 0
+SCL
+Text Label 3950 5450 2    50   ~ 0
+SCL
+Wire Wire Line
+	2750 6150 2900 6150
+Wire Wire Line
+	2750 5950 2900 5950
+Wire Wire Line
+	2750 6050 2900 6050
+Wire Wire Line
+	2750 6750 2900 6750
+Wire Wire Line
+	2750 6850 2900 6850
+Wire Wire Line
+	2750 6450 2900 6450
+Wire Wire Line
+	2750 6650 2900 6650
+Wire Wire Line
+	5500 5450 5650 5450
+Wire Wire Line
+	5500 5550 5650 5550
+Wire Wire Line
+	5500 5650 5650 5650
+Wire Wire Line
+	5500 5750 5650 5750
+Wire Wire Line
+	5500 5850 5650 5850
+Wire Wire Line
+	5500 5950 5650 5950
+Wire Wire Line
+	2750 5450 2900 5450
+Wire Wire Line
+	2750 5550 2900 5550
+Wire Wire Line
+	2750 5650 2900 5650
+Wire Wire Line
+	2750 5750 2900 5750
+Wire Wire Line
+	2750 5850 2900 5850
+Text Label 2900 5450 0    50   ~ 0
+RLY1_EN
+Text Label 2900 5550 0    50   ~ 0
+RLY2_EN
+Text Label 2900 5650 0    50   ~ 0
+RLY3_EN
+Text Label 2900 5750 0    50   ~ 0
+RLY4_EN
+Text Label 2900 5850 0    50   ~ 0
+RLY5_EN
+$Comp
+L Device:R R47
+U 1 1 5E7AEDDF
+P 3900 6350
+F 0 "R47" V 3693 6350 50  0000 C CNN
+F 1 "10kR" V 3784 6350 50  0000 C CNN
+F 2 "lsts-passives:R_0603" V 3830 6350 50  0001 C CNN
+F 3 "~" H 3900 6350 50  0001 C CNN
+F 4 "CRCW060310K0JNEBC" H 3900 6350 50  0001 C CNN "manf#"
+	1    3900 6350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4050 6350 4100 6350
+Wire Wire Line
+	3700 6350 3750 6350
+$Comp
+L Device:R R4
+U 1 1 5E7AEDE8
+P 1250 5200
+F 0 "R4" H 1180 5154 50  0000 R CNN
+F 1 "10kR" H 1180 5245 50  0000 R CNN
+F 2 "lsts-passives:R_0603" V 1180 5200 50  0001 C CNN
+F 3 "~" H 1250 5200 50  0001 C CNN
+F 4 "CRCW060310K0JNEBC" H 1250 5200 50  0001 C CNN "manf#"
+	1    1250 5200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5E7AEDEF
+P 1050 5200
+F 0 "R1" H 1119 5154 50  0000 L CNN
+F 1 "10kR" H 1119 5245 50  0000 L CNN
+F 2 "lsts-passives:R_0603" V 980 5200 50  0001 C CNN
+F 3 "~" H 1050 5200 50  0001 C CNN
+F 4 "CRCW060310K0JNEBC" H 1050 5200 50  0001 C CNN "manf#"
+	1    1050 5200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	950  5450 1050 5450
+Wire Wire Line
+	950  5550 1250 5550
+Wire Wire Line
+	1050 5350 1050 5450
+Connection ~ 1050 5450
+Wire Wire Line
+	1050 5450 1350 5450
+Wire Wire Line
+	1250 5350 1250 5550
+Connection ~ 1250 5550
+Wire Wire Line
+	1250 5550 1350 5550
+Text Label 4800 4950 1    50   ~ 0
++5V_SB
+Text Label 2050 4950 1    50   ~ 0
++5V_SB
+Text Label 3700 6350 2    50   ~ 0
++5V_SB
+Wire Wire Line
+	2050 4950 2050 5150
+Wire Wire Line
+	4800 4950 4800 5150
+Wire Wire Line
+	5500 6850 5650 6850
+Wire Wire Line
+	5500 6750 5650 6750
+Wire Wire Line
+	5500 6650 5650 6650
+Wire Wire Line
+	5500 6050 5650 6050
+Wire Wire Line
+	5500 6150 5650 6150
+Wire Wire Line
+	5500 6250 5650 6250
+Wire Wire Line
+	5500 6350 5650 6350
+Wire Wire Line
+	5500 6450 5650 6450
+Wire Wire Line
+	5500 6550 5650 6550
+Wire Wire Line
+	2050 4950 2200 4950
+Connection ~ 2050 4950
+$Comp
+L Device:C C1
+U 1 1 5E7AEE14
+P 2350 4950
+F 0 "C1" V 2098 4950 50  0000 C CNN
+F 1 "100nF" V 2189 4950 50  0000 C CNN
+F 2 "lsts-passives:C_0603" H 2388 4800 50  0001 C CNN
+F 3 "~" H 2350 4950 50  0001 C CNN
+F 4 "EMK107B7104KAHT" H 2350 4950 50  0001 C CNN "manf#"
+	1    2350 4950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2500 4950 2650 4950
+$Comp
+L power:GND #PWR0121
+U 1 1 5E7AEE1B
+P 2650 4950
+F 0 "#PWR0121" H 2650 4700 50  0001 C CNN
+F 1 "GND" H 2655 4777 50  0000 C CNN
+F 2 "" H 2650 4950 50  0001 C CNN
+F 3 "" H 2650 4950 50  0001 C CNN
+	1    2650 4950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4800 4950 4950 4950
+$Comp
+L Device:C C7
+U 1 1 5E7AEE23
+P 5100 4950
+F 0 "C7" V 4848 4950 50  0000 C CNN
+F 1 "100nF" V 4939 4950 50  0000 C CNN
+F 2 "lsts-passives:C_0603" H 5138 4800 50  0001 C CNN
+F 3 "~" H 5100 4950 50  0001 C CNN
+F 4 "EMK107B7104KAHT" H 5100 4950 50  0001 C CNN "manf#"
+	1    5100 4950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5250 4950 5400 4950
+$Comp
+L power:GND #PWR0122
+U 1 1 5E7AEE2A
+P 5400 4950
+F 0 "#PWR0122" H 5400 4700 50  0001 C CNN
+F 1 "GND" H 5405 4777 50  0000 C CNN
+F 2 "" H 5400 4950 50  0001 C CNN
+F 3 "" H 5400 4950 50  0001 C CNN
+	1    5400 4950
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 2750 6250
+NoConn ~ 2750 6350
+Wire Wire Line
+	2750 6950 2900 6950
+Wire Wire Line
+	2750 6550 2900 6550
+Text Label 2900 6150 0    50   ~ 0
+MTR1_EN
+Text Label 2900 5950 0    50   ~ 0
+MTR1_PH
+Text Label 2900 6050 0    50   ~ 0
+MTR1_SL
+Text Label 2900 6750 0    50   ~ 0
+MTR2_EN
+Text Label 2900 6950 0    50   ~ 0
+MTR2_PH
+Text Label 2900 6850 0    50   ~ 0
+MTR2_SL
+Text Label 2900 6450 0    50   ~ 0
+MTR3_EN
+Text Label 2900 6650 0    50   ~ 0
 MTR3_PH
-Text Label 2400 6400 0    50   ~ 0
+Text Label 2900 6550 0    50   ~ 0
 MTR3_SL
-Text Label 4900 6600 0    50   ~ 0
+Text Label 5650 6650 0    50   ~ 0
 MTR6_EN
-Text Label 4900 6800 0    50   ~ 0
+Text Label 5650 6850 0    50   ~ 0
 MTR6_PH
-Text Label 4900 6700 0    50   ~ 0
+Text Label 5650 6750 0    50   ~ 0
 MTR6_SL
-Text Label 4900 6300 0    50   ~ 0
+Text Label 5650 6350 0    50   ~ 0
 MTR7_EN
-Text Label 4900 6500 0    50   ~ 0
+Text Label 5650 6550 0    50   ~ 0
 MTR7_PH
-Text Label 4900 6400 0    50   ~ 0
+Text Label 5650 6450 0    50   ~ 0
 MTR7_SL
-Text Label 4900 5900 0    50   ~ 0
+Text Label 5650 6150 0    50   ~ 0
 MTR8_EN
-Text Label 4900 6200 0    50   ~ 0
+Text Label 5650 6250 0    50   ~ 0
 MTR8_PH
-Text Label 4900 6100 0    50   ~ 0
+Text Label 5650 6050 0    50   ~ 0
 MTR8_SL
-Text Label 4900 5600 0    50   ~ 0
+Text Label 5650 5850 0    50   ~ 0
 MTR5_SL
-Text Label 4900 5500 0    50   ~ 0
+Text Label 5650 5750 0    50   ~ 0
 MTR5_PH
-Text Label 4900 5700 0    50   ~ 0
+Text Label 5650 5950 0    50   ~ 0
 MTR5_EN
-Text Label 4900 5400 0    50   ~ 0
+Text Label 5650 5650 0    50   ~ 0
 MTR4_EN
-Text Label 4900 5200 0    50   ~ 0
+Text Label 5650 5450 0    50   ~ 0
 MTR4_PH
-Text Label 4900 5300 0    50   ~ 0
+Text Label 5650 5550 0    50   ~ 0
 MTR4_SL
+$Comp
+L Driver_LED:PCA9685PW U3
+U 1 1 5E7C017A
+P 4800 6150
+F 0 "U3" H 4800 7331 50  0000 C CNN
+F 1 "PCA9685PW" H 4800 7240 50  0000 C CNN
+F 2 "Package_SO:TSSOP-28_4.4x9.7mm_P0.65mm" H 4825 5175 50  0001 L CNN
+F 3 "http://www.nxp.com/documents/data_sheet/PCA9685.pdf" H 4400 6850 50  0001 C CNN
+	1    4800 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Driver_LED:PCA9685PW U1
+U 1 1 5E7BE61E
+P 2050 6150
+F 0 "U1" H 2050 7331 50  0000 C CNN
+F 1 "PCA9685PW" H 2050 7240 50  0000 C CNN
+F 2 "Package_SO:TSSOP-28_4.4x9.7mm_P0.65mm" H 2075 5175 50  0001 L CNN
+F 3 "http://www.nxp.com/documents/data_sheet/PCA9685.pdf" H 1650 6850 50  0001 C CNN
+	1    2050 6150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1050 4950 1050 5050
+Wire Wire Line
+	1050 4950 1250 4950
+Wire Wire Line
+	1250 5050 1250 4950
+Connection ~ 1250 4950
+Wire Wire Line
+	1250 4950 2050 4950
+Wire Wire Line
+	1350 6350 1350 6450
+Wire Wire Line
+	1350 7300 2050 7300
+Connection ~ 1350 6450
+Wire Wire Line
+	1350 6450 1350 6550
+Connection ~ 1350 6550
+Wire Wire Line
+	1350 6550 1350 6650
+Connection ~ 1350 6650
+Wire Wire Line
+	1350 6650 1350 6750
+Connection ~ 1350 6750
+Wire Wire Line
+	1350 6750 1350 6850
+Connection ~ 1350 6850
+Wire Wire Line
+	1350 6850 1350 7300
+Wire Wire Line
+	1350 5650 1200 5650
+Wire Wire Line
+	4100 7300 4100 6850
+Wire Wire Line
+	4100 7300 4800 7300
+Connection ~ 4100 6550
+Wire Wire Line
+	4100 6550 4100 6450
+Connection ~ 4100 6650
+Wire Wire Line
+	4100 6650 4100 6550
+Connection ~ 4100 6750
+Wire Wire Line
+	4100 6750 4100 6650
+Connection ~ 4100 6850
+Wire Wire Line
+	4100 6850 4100 6750
+$Comp
+L power:GND #PWR0123
+U 1 1 5E92F3FA
+P 3950 5650
+F 0 "#PWR0123" H 3950 5400 50  0001 C CNN
+F 1 "GND" H 3955 5477 50  0000 C CNN
+F 2 "" H 3950 5650 50  0001 C CNN
+F 3 "" H 3950 5650 50  0001 C CNN
+	1    3950 5650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3950 5650 4100 5650
+Wire Wire Line
+	3600 5750 3750 5750
+$Comp
+L power:GND #PWR0124
+U 1 1 5E95235B
+P 3600 5750
+F 0 "#PWR0124" H 3600 5500 50  0001 C CNN
+F 1 "GND" H 3605 5577 50  0000 C CNN
+F 2 "" H 3600 5750 50  0001 C CNN
+F 3 "" H 3600 5750 50  0001 C CNN
+	1    3600 5750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R46
+U 1 1 5E941625
+P 3900 5750
+F 0 "R46" V 4015 5750 50  0000 C CNN
+F 1 "10kR" V 4106 5750 50  0000 C CNN
+F 2 "lsts-passives:R_0603" V 3830 5750 50  0001 C CNN
+F 3 "~" H 3900 5750 50  0001 C CNN
+F 4 "CRCW060310K0JNEBC" H 3900 5750 50  0001 C CNN "manf#"
+	1    3900 5750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4050 5750 4100 5750
+$Comp
+L power:GND #PWR0125
+U 1 1 5E999BFD
+P 1200 5650
+F 0 "#PWR0125" H 1200 5400 50  0001 C CNN
+F 1 "GND" H 1205 5477 50  0000 C CNN
+F 2 "" H 1200 5650 50  0001 C CNN
+F 3 "" H 1200 5650 50  0001 C CNN
+	1    1200 5650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	850  5750 1000 5750
+$Comp
+L power:GND #PWR0126
+U 1 1 5E999C04
+P 850 5750
+F 0 "#PWR0126" H 850 5500 50  0001 C CNN
+F 1 "GND" H 855 5577 50  0000 C CNN
+F 2 "" H 850 5750 50  0001 C CNN
+F 3 "" H 850 5750 50  0001 C CNN
+	1    850  5750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5E999C0B
+P 1150 5750
+F 0 "R2" V 1265 5750 50  0000 C CNN
+F 1 "10kR" V 1356 5750 50  0000 C CNN
+F 2 "lsts-passives:R_0603" V 1080 5750 50  0001 C CNN
+F 3 "~" H 1150 5750 50  0001 C CNN
+F 4 "CRCW060310K0JNEBC" H 1150 5750 50  0001 C CNN "manf#"
+	1    1150 5750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1300 5750 1350 5750
+NoConn ~ 5500 6950
 $EndSCHEMATC
