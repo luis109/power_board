@@ -1235,11 +1235,11 @@ Text Label 5650 6550 0    50   ~ 0
 MTR7_PH
 Text Label 5650 6450 0    50   ~ 0
 MTR7_SL
-Text Label 5650 6050 0    50   ~ 0
+Text Label 5650 6150 0    50   ~ 0
 MTR8_EN
 Text Label 5650 6250 0    50   ~ 0
 MTR8_PH
-Text Label 5650 6150 0    50   ~ 0
+Text Label 5650 6050 0    50   ~ 0
 MTR8_SL
 Text Label 5650 5850 0    50   ~ 0
 MTR5_SL
