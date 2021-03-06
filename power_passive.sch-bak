@@ -632,17 +632,6 @@ Wire Wire Line
 Connection ~ 6300 3200
 Text HLabel 6000 3750 1    50   Input ~ 0
 PWM1_5V
-$Comp
-L power:+5V #PWR026
-U 1 1 5E6D741E
-P 6150 3200
-F 0 "#PWR026" H 6150 3050 50  0001 C CNN
-F 1 "+5V" V 6165 3328 50  0000 L CNN
-F 2 "" H 6150 3200 50  0001 C CNN
-F 3 "" H 6150 3200 50  0001 C CNN
-	1    6150 3200
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	6800 3200 6800 3650
 Wire Wire Line
@@ -1046,17 +1035,6 @@ Wire Wire Line
 Connection ~ 6300 4900
 Text HLabel 7800 5450 1    50   Input ~ 0
 PWM4_5V
-$Comp
-L power:+5V #PWR027
-U 1 1 5E7404EE
-P 6150 4900
-F 0 "#PWR027" H 6150 4750 50  0001 C CNN
-F 1 "+5V" V 6165 5028 50  0000 L CNN
-F 2 "" H 6150 4900 50  0001 C CNN
-F 3 "" H 6150 4900 50  0001 C CNN
-	1    6150 4900
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	6800 4900 6800 5350
 Wire Wire Line
@@ -1184,17 +1162,6 @@ Wire Wire Line
 Connection ~ 8100 4900
 Text HLabel 9600 3750 1    50   Input ~ 0
 PWM5_5V
-$Comp
-L power:+5V #PWR035
-U 1 1 5E7533B9
-P 7950 4900
-F 0 "#PWR035" H 7950 4750 50  0001 C CNN
-F 1 "+5V" V 7965 5028 50  0000 L CNN
-F 2 "" H 7950 4900 50  0001 C CNN
-F 3 "" H 7950 4900 50  0001 C CNN
-	1    7950 4900
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	8600 4900 8600 5350
 Wire Wire Line
@@ -1335,4 +1302,37 @@ F 3 "https://www.intel.com/content/dam/www/public/us/en/documents/guides/power-s
 $EndComp
 NoConn ~ 3750 1450
 NoConn ~ 3750 2250
+$Comp
+L power:+5V #PWR035
+U 1 1 5E7533B9
+P 7950 4900
+F 0 "#PWR035" H 7950 4750 50  0001 C CNN
+F 1 "+5V" V 7965 5028 50  0000 L CNN
+F 2 "" H 7950 4900 50  0001 C CNN
+F 3 "" H 7950 4900 50  0001 C CNN
+	1    7950 4900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+12V #PWR0127
+U 1 1 5ECFD70E
+P 6150 3200
+F 0 "#PWR0127" H 6150 3050 50  0001 C CNN
+F 1 "+12V" V 6165 3328 50  0000 L CNN
+F 2 "" H 6150 3200 50  0001 C CNN
+F 3 "" H 6150 3200 50  0001 C CNN
+	1    6150 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+12V #PWR0128
+U 1 1 5ECFDE1E
+P 6150 4900
+F 0 "#PWR0128" H 6150 4750 50  0001 C CNN
+F 1 "+12V" V 6165 5028 50  0000 L CNN
+F 2 "" H 6150 4900 50  0001 C CNN
+F 3 "" H 6150 4900 50  0001 C CNN
+	1    6150 4900
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
