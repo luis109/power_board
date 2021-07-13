@@ -1,10 +1,4 @@
-04-06 21:05:26 place_footprints.action_place_footprints 414:Plugin executed on: 'linux'
-04-06 21:05:26 place_footprints.action_place_footprints 415:Plugin executed with python version: '3.6.9 (default, Nov  7 2019, 10:44:02) \n[GCC 8.3.0]'
-04-06 21:05:26 place_footprints.action_place_footprints 416:KiCad build version: Unknown
-04-06 21:05:26 place_footprints.action_place_footprints 417:Place footprints plugin version: 48 started
-04-06 21:05:27 place_footprints.place_footprints 210:getting project hierarchy from schematics
-04-06 21:05:27 place_footprints.place_footprints 219:getting a list of all footprints on board
-04-06 21:05:27 place_footprints.action_place_footprints 463:Reference designator is: J
-04-06 21:05:27 place_footprints.action_place_footprints 464:Rerefence number is: 27
-04-06 21:05:27 place_footprints.action_place_footprints 495:Sorted and filtered list:
-['J1', 'J2', 'J3', 'J4', 'J5', 'J6', 'J7', 'J8', 'J9', 'J10', 'J11', 'J12', 'J13', 'J14', 'J15', 'J16', 'J17', 'J18', 'J19', 'J20', 'J21', 'J22', 'J23', 'J24', 'J25', 'J26', 'J27', 'J28', 'J29', 'J30', 'J31', 'J32', 'J33']
+06-11 16:02:47 place_footprints.action_place_footprints 414:Plugin executed on: 'linux'
+06-11 16:02:47 place_footprints.action_place_footprints 415:Plugin executed with python version: '3.8.5 (default, May 27 2021, 13:30:53) \n[GCC 9.3.0]'
+06-11 16:02:47 place_footprints.action_place_footprints 416:KiCad build version: 5.1.10-88a1d61d58~88~ubuntu20.04.1
+06-11 16:02:47 place_footprints.action_place_footprints 417:Place footprints plugin version: 54 started
