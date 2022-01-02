@@ -307,15 +307,9 @@ SCL
 Wire Wire Line
 	2750 6150 2900 6150
 Wire Wire Line
-	2750 5950 2900 5950
-Wire Wire Line
-	2750 6050 2900 6050
-Wire Wire Line
 	2750 6750 2900 6750
 Wire Wire Line
 	2750 6850 2900 6850
-Wire Wire Line
-	2750 6450 2900 6450
 Wire Wire Line
 	2750 6650 2900 6650
 Wire Wire Line
@@ -481,8 +475,6 @@ F 3 "" H 5400 4950 50  0001 C CNN
 	1    5400 4950
 	0    -1   -1   0   
 $EndComp
-NoConn ~ 2750 6250
-NoConn ~ 2750 6350
 Wire Wire Line
 	2750 6950 2900 6950
 Wire Wire Line
@@ -493,35 +485,33 @@ Text Label 2900 6950 0    50   ~ 0
 MTR1_IN1
 Text Label 2900 6850 0    50   ~ 0
 MTR1_IN2
-Text Label 2900 6450 0    50   ~ 0
+Text Label 2900 6550 0    50   ~ 0
 MTR2_EN
 Text Label 2900 6650 0    50   ~ 0
 MTR2_IN1
-Text Label 2900 6550 0    50   ~ 0
-MTR2_IN2
-Text Label 5650 6550 0    50   ~ 0
+Text Label 5650 6650 0    50   ~ 0
 MTR5_EN
 Text Label 5650 6750 0    50   ~ 0
 MTR5_IN1
-Text Label 5650 6650 0    50   ~ 0
+Text Label 5650 6550 0    50   ~ 0
 MTR5_IN2
-Text Label 5650 6250 0    50   ~ 0
+Text Label 5650 6350 0    50   ~ 0
 MTR6_EN
 Text Label 5650 6450 0    50   ~ 0
 MTR6_IN1
-Text Label 5650 6350 0    50   ~ 0
+Text Label 5650 6250 0    50   ~ 0
 MTR6_IN2
-Text Label 5650 5550 0    50   ~ 0
+Text Label 5650 5650 0    50   ~ 0
 MTR4_IN2
 Text Label 5650 5450 0    50   ~ 0
 MTR4_IN1
-Text Label 5650 5650 0    50   ~ 0
+Text Label 5650 5550 0    50   ~ 0
 MTR4_EN
-Text Label 2900 6150 0    50   ~ 0
+Text Label 2900 6250 0    50   ~ 0
 MTR3_EN
-Text Label 2900 5950 0    50   ~ 0
+Text Label 2900 6350 0    50   ~ 0
 MTR3_IN1
-Text Label 2900 6050 0    50   ~ 0
+Text Label 2900 6150 0    50   ~ 0
 MTR3_IN2
 $Comp
 L Driver_LED:PCA9685PW U2
@@ -534,17 +524,6 @@ F 3 "http://www.nxp.com/documents/data_sheet/PCA9685.pdf" H 4400 6850 50  0001 C
 	1    4800 6150
 	1    0    0    -1  
 $EndComp
-$Comp
-L Driver_LED:PCA9685PW U1
-U 1 1 5E7BE61E
-P 2050 6150
-F 0 "U1" H 2050 7331 50  0000 C CNN
-F 1 "PCA9685PW" H 2050 7240 50  0000 C CNN
-F 2 "Package_SO:TSSOP-28_4.4x9.7mm_P0.65mm" H 2075 5175 50  0001 L CNN
-F 3 "http://www.nxp.com/documents/data_sheet/PCA9685.pdf" H 1650 6850 50  0001 C CNN
-	1    2050 6150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1050 4950 1050 5050
 Wire Wire Line
@@ -554,17 +533,6 @@ Wire Wire Line
 Connection ~ 1250 4950
 Wire Wire Line
 	1250 4950 2050 4950
-Wire Wire Line
-	1350 6350 1350 6450
-Connection ~ 1350 6450
-Wire Wire Line
-	1350 6450 1350 6550
-Connection ~ 1350 6550
-Wire Wire Line
-	1350 6550 1350 6650
-Connection ~ 1350 6650
-Wire Wire Line
-	1350 6650 1350 6750
 Wire Wire Line
 	1350 5650 1200 5650
 Connection ~ 4100 6550
@@ -798,11 +766,43 @@ Wire Wire Line
 Connection ~ 2050 7300
 Wire Wire Line
 	2050 7300 2050 7400
-Connection ~ 1350 6750
 Wire Wire Line
 	3950 7300 3950 6750
 Wire Wire Line
 	3950 6750 4100 6750
 Wire Wire Line
 	3950 7300 4800 7300
+Wire Wire Line
+	2750 6350 2900 6350
+Connection ~ 1350 6750
+Wire Wire Line
+	1350 6650 1350 6750
+Connection ~ 1350 6650
+Wire Wire Line
+	1350 6550 1350 6650
+Connection ~ 1350 6550
+Wire Wire Line
+	1350 6350 1350 6450
+Wire Wire Line
+	1350 6450 1350 6550
+Connection ~ 1350 6450
+$Comp
+L Driver_LED:PCA9685PW U1
+U 1 1 5E7BE61E
+P 2050 6150
+F 0 "U1" H 2050 7331 50  0000 C CNN
+F 1 "PCA9685PW" H 2050 7240 50  0000 C CNN
+F 2 "Package_SO:TSSOP-28_4.4x9.7mm_P0.65mm" H 2075 5175 50  0001 L CNN
+F 3 "http://www.nxp.com/documents/data_sheet/PCA9685.pdf" H 1650 6850 50  0001 C CNN
+	1    2050 6150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 6250 2900 6250
+Wire Wire Line
+	2750 6450 2900 6450
+Text Label 2900 6450 0    50   ~ 0
+MTR2_IN2
+NoConn ~ 2750 5950
+NoConn ~ 2750 6050
 $EndSCHEMATC
