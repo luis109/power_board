@@ -489,17 +489,17 @@ Text Label 2900 6550 0    50   ~ 0
 MTR2_EN
 Text Label 2900 6650 0    50   ~ 0
 MTR2_IN1
-Text Label 5650 6550 0    50   ~ 0
+Text Label 5650 6650 0    50   ~ 0
 MTR5_EN
 Text Label 5650 6750 0    50   ~ 0
 MTR5_IN1
-Text Label 5650 6650 0    50   ~ 0
+Text Label 5650 6550 0    50   ~ 0
 MTR5_IN2
-Text Label 5650 6250 0    50   ~ 0
+Text Label 5650 6350 0    50   ~ 0
 MTR6_EN
 Text Label 5650 6450 0    50   ~ 0
 MTR6_IN1
-Text Label 5650 6350 0    50   ~ 0
+Text Label 5650 6250 0    50   ~ 0
 MTR6_IN2
 Text Label 5650 5650 0    50   ~ 0
 MTR4_IN2
