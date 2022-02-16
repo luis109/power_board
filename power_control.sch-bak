@@ -83,18 +83,6 @@ F 3 "" H 1850 1250 50  0001 C CNN
 	1    1850 1250
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:C C5
-U 1 1 5E5F9468
-P 2000 1350
-F 0 "C5" V 1748 1350 50  0000 C CNN
-F 1 "100nF" V 1839 1350 50  0000 C CNN
-F 2 "lsts_passives:C_0603" H 2038 1200 50  0001 C CNN
-F 3 "~" H 2000 1350 50  0001 C CNN
-F 4 "EMK107B7104KAHT" H 2000 1350 50  0001 C CNN "manf#"
-	1    2000 1350
-	0    1    1    0   
-$EndComp
 Text HLabel 1000 1750 0    50   Input ~ 0
 MTR1_IN1
 $Comp
@@ -273,11 +261,6 @@ Wire Wire Line
 Wire Wire Line
 	1450 1350 1350 1350
 Wire Wire Line
-	1850 1550 1850 1350
-Connection ~ 1850 1350
-Wire Wire Line
-	1850 1350 1850 1250
-Wire Wire Line
 	2250 1350 2150 1350
 Wire Wire Line
 	1000 1950 1150 1950
@@ -388,18 +371,6 @@ F 3 "" H 5550 1250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C7
-U 1 1 61999836
-P 5700 1350
-F 0 "C7" V 5448 1350 50  0000 C CNN
-F 1 "100nF" V 5539 1350 50  0000 C CNN
-F 2 "lsts_passives:C_0603" H 5738 1200 50  0001 C CNN
-F 3 "~" H 5700 1350 50  0001 C CNN
-F 4 "EMK107B7104KAHT" H 5700 1350 50  0001 C CNN "manf#"
-	1    5700 1350
-	0    1    1    0   
-$EndComp
-$Comp
 L power:GND #PWR068
 U 1 1 6199983C
 P 5950 1350
@@ -428,11 +399,6 @@ Wire Wire Line
 	5450 1350 5450 1250
 Wire Wire Line
 	5150 1350 5050 1350
-Wire Wire Line
-	5550 1550 5550 1350
-Connection ~ 5550 1350
-Wire Wire Line
-	5550 1350 5550 1250
 Wire Wire Line
 	5950 1350 5850 1350
 $Comp
@@ -532,18 +498,6 @@ F 3 "" H 9100 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C9
-U 1 1 619DDDA0
-P 9250 1300
-F 0 "C9" V 8998 1300 50  0000 C CNN
-F 1 "100nF" V 9089 1300 50  0000 C CNN
-F 2 "lsts_passives:C_0603" H 9288 1150 50  0001 C CNN
-F 3 "~" H 9250 1300 50  0001 C CNN
-F 4 "EMK107B7104KAHT" H 9250 1300 50  0001 C CNN "manf#"
-	1    9250 1300
-	0    1    1    0   
-$EndComp
-$Comp
 L power:GND #PWR075
 U 1 1 619DDDA6
 P 9500 1300
@@ -572,11 +526,6 @@ Wire Wire Line
 	9000 1300 9000 1200
 Wire Wire Line
 	8700 1300 8600 1300
-Wire Wire Line
-	9100 1500 9100 1300
-Connection ~ 9100 1300
-Wire Wire Line
-	9100 1300 9100 1200
 Wire Wire Line
 	9500 1300 9400 1300
 $Comp
@@ -904,4 +853,52 @@ Wire Wire Line
 	9600 1650 9600 2000
 Wire Wire Line
 	9600 2750 9600 2400
+$Comp
+L Device:C_Polarized C5
+U 1 1 61D58D79
+P 2000 1350
+F 0 "C5" V 2255 1350 50  0000 C CNN
+F 1 "220uf" V 2164 1350 50  0000 C CNN
+F 2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" H 2038 1200 50  0001 C CNN
+F 3 "MAL213668221E3" H 2000 1350 50  0001 C CNN
+	1    2000 1350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1850 1250 1850 1350
+Connection ~ 1850 1350
+Wire Wire Line
+	1850 1350 1850 1550
+Wire Wire Line
+	5550 1250 5550 1350
+Wire Wire Line
+	9100 1200 9100 1300
+$Comp
+L Device:C_Polarized C7
+U 1 1 61D685B1
+P 5700 1350
+F 0 "C7" V 5955 1350 50  0000 C CNN
+F 1 "220uf" V 5864 1350 50  0000 C CNN
+F 2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" H 5738 1200 50  0001 C CNN
+F 3 "MAL213668221E3" H 5700 1350 50  0001 C CNN
+	1    5700 1350
+	0    -1   -1   0   
+$EndComp
+Connection ~ 5550 1350
+Wire Wire Line
+	5550 1350 5550 1550
+$Comp
+L Device:C_Polarized C9
+U 1 1 61D68D92
+P 9250 1300
+F 0 "C9" V 9505 1300 50  0000 C CNN
+F 1 "220uf" V 9414 1300 50  0000 C CNN
+F 2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" H 9288 1150 50  0001 C CNN
+F 3 "MAL213668221E3" H 9250 1300 50  0001 C CNN
+	1    9250 1300
+	0    -1   -1   0   
+$EndComp
+Connection ~ 9100 1300
+Wire Wire Line
+	9100 1300 9100 1500
 $EndSCHEMATC
