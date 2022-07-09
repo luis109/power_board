@@ -1166,8 +1166,6 @@ Wire Wire Line
 	8600 4900 8600 5350
 Wire Wire Line
 	8600 5450 8600 5950
-Wire Wire Line
-	2500 1450 2600 1450
 Text HLabel 2200 1350 1    50   Input ~ 0
 PWR_CTR
 $Comp
@@ -1219,28 +1217,6 @@ F 4 "CRCW060310K0JNEBC" H 2200 1500 50  0001 C CNN "manf#"
 	1    2200 1500
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:R R?
-U 1 1 5E39FAB3
-P 2600 1300
-AR Path="/5E39FAB3" Ref="R?"  Part="1" 
-AR Path="/5E1C04CF/5E39FAB3" Ref="R?"  Part="1" 
-AR Path="/5E3E0C4B/5E39FAB3" Ref="R?"  Part="1" 
-AR Path="/5E4850C0/5E39FAB3" Ref="R?"  Part="1" 
-AR Path="/5E4060AB/5E39FAB3" Ref="R9"  Part="1" 
-F 0 "R9" V 2393 1300 50  0000 C CNN
-F 1 "10kR" V 2484 1300 50  0000 C CNN
-F 2 "lsts_passives:R_0603" V 2530 1300 50  0001 C CNN
-F 3 "~" H 2600 1300 50  0001 C CNN
-F 4 "CRCW060310K0JNEBC" H 2600 1300 50  0001 C CNN "manf#"
-	1    2600 1300
-	1    0    0    -1  
-$EndComp
-Connection ~ 2600 1450
-Wire Wire Line
-	2600 1450 2750 1450
-Text HLabel 2600 1150 1    50   Input ~ 0
-+5V_SB
 Wire Wire Line
 	8150 2000 8000 2000
 Wire Wire Line
@@ -1335,4 +1311,6 @@ F 3 "" H 6150 4900 50  0001 C CNN
 	1    6150 4900
 	0    -1   -1   0   
 $EndComp
+Wire Wire Line
+	2500 1450 2750 1450
 $EndSCHEMATC
