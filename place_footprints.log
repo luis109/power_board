@@ -1,4 +1,14 @@
-06-11 16:02:47 place_footprints.action_place_footprints 414:Plugin executed on: 'linux'
-06-11 16:02:47 place_footprints.action_place_footprints 415:Plugin executed with python version: '3.8.5 (default, May 27 2021, 13:30:53) \n[GCC 9.3.0]'
-06-11 16:02:47 place_footprints.action_place_footprints 416:KiCad build version: 5.1.10-88a1d61d58~88~ubuntu20.04.1
-06-11 16:02:47 place_footprints.action_place_footprints 417:Place footprints plugin version: 54 started
+01-03 18:07:11 place_footprints.action_place_footprints 414:Plugin executed on: 'linux'
+01-03 18:07:11 place_footprints.action_place_footprints 415:Plugin executed with python version: '3.8.10 (default, Nov 26 2021, 20:14:08) \n[GCC 9.3.0]'
+01-03 18:07:11 place_footprints.action_place_footprints 416:KiCad build version: 5.1.12-84ad8e8a86~92~ubuntu20.04.1
+01-03 18:07:11 place_footprints.action_place_footprints 417:Place footprints plugin version: 54 started
+01-03 18:07:12 place_footprints.place_footprints 213:getting project hierarchy from schematics
+01-03 18:07:12 place_footprints.place_footprints 228:getting a list of all footprints on board
+01-03 18:07:12 place_footprints.action_place_footprints 472:Reference designator is: C
+01-03 18:07:12 place_footprints.action_place_footprints 473:Rerefence number is: 9
+01-03 18:07:12 place_footprints.action_place_footprints 504:Sorted and filtered list:
+['C1', 'C2', 'C3', 'C4', 'C5', 'C6', 'C7', 'C8', 'C9']
+01-03 18:07:31 place_footprints.action_place_footprints 535:Modules to place:
+['C5', 'C7', 'C9']
+01-03 18:07:31 place_footprints.place_footprints 380:Starting placing with linear layout
+01-03 18:07:31 place_footprints.action_place_footprints 573:Placing complete
